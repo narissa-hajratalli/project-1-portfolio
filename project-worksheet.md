@@ -1,6 +1,6 @@
 # Project 1 - Portfolio
 
-## Project Status
+## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
