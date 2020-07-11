@@ -15,3 +15,14 @@
 
 ## Google Sheet
 [Google Doc](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0) (line 17)
+
+## Time/Priority Matrix 
+
+### MVP/PostMVP
+
+#### MVP (examples)
+
+#### PostMVP 
+
+## Functional Components
+
