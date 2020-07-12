@@ -27,10 +27,10 @@ The purpose of this project is to create my own website to showcase my projects 
 
 |Deliverable	| Status	| Time Spent |
 | --- | :---: |  :---: | 
-| Sat, July 12 | Project Proposal	| Complete | 8 hrs
-| Sun, July 13 | Research ideas	| Incomplete	| -hr |
-| Mon, July 14 | Compile List of Projects and connect using API | Incomplete | -hr |
-| Tues, July 15 | HTML & CSS built | Incomplete | -hr |
+| Sat, July 11 | Project Proposal	| Complete | 8 hrs
+| Sun, July 12 | Research ideas	| Incomplete	| -hr |
+| Mon, July 13 | Compile List of Projects and connect using API | Incomplete | -hr |
+| Tues, July 14 | HTML & CSS built | Incomplete | -hr |
 | Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
 | Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
 | Fri, July 17 | Depoly website | Incomplete | -hr |		
@@ -48,9 +48,9 @@ The purpose of this project is to create my own website to showcase my projects 
 
 
 #### Post MVP
-- Make "Projects" section scrollable using arrows
+- Make "Projects" section scrollable using arrows in a gallery-type view
 - Mouse hover over each project and show the description
-- Make the navigation bar jump to a specific part of the webpage
+- Jump to a certain part of the webpage when a heading on the navigation bar is clicked (desktop only)
 - Create a "Skills" section
 - Add level bars in the "Skills" section to indicate my experience in each language
 - Create a "Work Experience" section
@@ -66,7 +66,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Naviagation bar | M | 1.5hrs | -hr | -hr|
 | Styling navigation bar & "About Me" with grid and flexbox | H | 3hrs | -hr | -hr|
 | Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| -hr | -hr |
-| Styling "Project" section with grid and flexbox | H | 2hrs | -hr | -hr|
+| Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
 | "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
 | Working with API | H | 3hrs | -hr | -hr |
 | Ensuring responsive works on all devices | H | 3hrs | -hr | -hr|
