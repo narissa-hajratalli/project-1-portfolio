@@ -23,8 +23,18 @@ The purpose of this project is to create my own website to showcase my projects 
 - [Mobile](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/iPad_g0aigm.png)
 
 ## Time/Priority Matrix 
-- [Graphic](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594523858/Project%201%20-%20Portfolio/IMG_0872_txwvgt.heic)
+- [Graphic](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594527180/Project%201%20-%20Portfolio/IMG_0878_tzriig.jpg)
 
+|Deliverable	| Status	| Time Spent |
+| --- | :---: |  :---: | 
+| Sat, July 12 | Project Proposal	| Complete | 8 hrs
+| Sun, July 13 | Research ideas	| Incomplete	| -hr |
+| Mon, July 14 | Compile List of Projects and connect using API | Incomplete | -hr |
+| Tues, July 15 | HTML & CSS built | Incomplete | -hr |
+| Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
+| Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
+| Fri, July 17 | Depoly website | Incomplete | -hr |		
+ 
 ## MVP/PostMVP
 
 #### MVP
@@ -52,29 +62,29 @@ The purpose of this project is to create my own website to showcase my projects 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| "About Me" section (including photo and bio)  | H | 2hr | -hr | -hr|
-| Naviagation bar | M | 1.5hr | -hr | -hr|
-| Styling navigation bar & "About Me" with grid and flexbox | H | 3hr | -hr | -hr|
-| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hr| -hr | -hr |
-| Styling "Project" section with grid and flexbox | H | 2hr | -hr | -hr|
-| "Contact Me" section and input fields| H | 4hr | -hr | -hr|
-| Working with API | H | 3hrs| -hr | -hr |
-| Ensuring responsive works on all devices | H | 3hr | -hr | -hr|
-| Hamburger menu | H | 2hr | -hr | -hr|
+| "About Me" section (including photo and bio)  | H | 2hrs | -hr | -hr|
+| Naviagation bar | M | 1.5hrs | -hr | -hr|
+| Styling navigation bar & "About Me" with grid and flexbox | H | 3hrs | -hr | -hr|
+| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| -hr | -hr |
+| Styling "Project" section with grid and flexbox | H | 2hrs | -hr | -hr|
+| "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
+| Working with API | H | 3hrs | -hr | -hr |
+| Ensuring responsive works on all devices | H | 3hrs | -hr | -hr|
+| Hamburger menu | H | 2hrs | -hr | -hr|
 | Deploying website | H | 1hr | -hr | -hr|
-| Total | - | 23.5hr | -hr | -hr |
+| Total | - | 23.5hrs | -hr | -hr |
 
 
 #### Post MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Make the "Projects" section into a gallery view | L | 5hr | -hr | -hr|
-| Mouse hover over each project picture to show the description | L | 1.5hr | -hr | -hr|
-| Click on navigation bar to jump to that specific part of the webpage | M | 2hr | -hr | -hr|
-| Create a "Skills" section to display the languages I am learning | M | 2hr| -hr | -hr |
-| Once "Skills" section is created, add proficiency bars | L | 2hr | -hr | -hr|
-| Create a "Work Experience" section with my resume| L | 2hr | -hr | -hr|
-| Social media icons at the bottom of the page| M | 1.5hr | -hr | -hr |
-| Make a cool graphic for the banner | L | 1.5hr | -hr | -hr |
-| Total | - | 17.5hr | -hrs | -hrs |
+| Make the "Projects" section into a gallery view | L | 5hrs | -hr | -hr|
+| Mouse hover over each project picture to show the description | L | 1.5hrs | -hr | -hr|
+| Click on navigation bar to jump to that specific part of the webpage | M | 2hrs | -hr | -hr|
+| Create a "Skills" section to display the languages I am learning | M | 2hrs| -hr | -hr |
+| Once "Skills" section is created, add proficiency bars | L | 2hrs | -hr | -hr|
+| Create a "Work Experience" section with my resume| L | 2hrs | -hr | -hr|
+| Social media icons at the bottom of the page| M | 1.5hrs | -hr | -hr |
+| Make a cool graphic for the banner | L | 1.5hrs | -hr | -hr |
+| Total | - | 17.5hrs | -hrs | -hrs |
 
