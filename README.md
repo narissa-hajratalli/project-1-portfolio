@@ -29,7 +29,8 @@ The purpose of this project is to create my own website to showcase my projects 
 
 #### MVP
 - Use HTML and CSS to add an "About Me", "Projects, and "Contact Me" section
-- Use CSS GRID and se Flexbox to organize content in an aesthetically pleasing way 
+- Create a navigation bar indicating each section of the webpage
+- Use CSS GRID and flexbox to organize content in an aesthetically pleasing way 
 - Make the webpage responseive--mobile first, then tablet and desktop responsiveness
 - Create a hamburger menu that is displayed in mobile only
 - Use an API to call my projects from URLs on a Google Sheet
@@ -50,26 +51,18 @@ The purpose of this project is to create my own website to showcase my projects 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+| "About Me" section (including photo and bio)  | H | 2hr | -hr | -hr|
+| Naviagation bar | M | 1.5hr | -hr | -hr|
+| Styling navigation bar & "About Me" with grid and flexbox | H | 3hr | -hr | -hr|
+| Creating the "Projects" section | H | 2hr| -hr | -hr |
+| Styling "Project" section with grid and flexbox | H | 2hr | -hr | -hr|
+| "Contact Me" section and input fields| H | 4hr | -hr | -hr|
+| Working with API | H | 3hrs| -hr | -hr |
+| Ensuring responsive works on all devices | H | 3hr | -hr | -hr|
+| Hamburger menu | H | 2hr | -hr | -hr|
+| Deploying website | H | 1hr | -hr | -hr|
+| Total | H | 23.5hrs| -hrs | -hrs |
 
 
 #### Post MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 3hr | -hr | -hr|
-| Regular Nav | H | H | -hr | -hr|
-| Adding Form | H | 1.5hr| -hr | -hr |
-| Other sections and flex| M | 4hr | 2hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Responsive | H | 3hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 15.5hrs| -hrs | -hrs |
+
