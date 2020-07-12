@@ -1,4 +1,4 @@
-# Project 1 - Portfolio
+# Project Proposal
 
 ## Project Schedule
 
