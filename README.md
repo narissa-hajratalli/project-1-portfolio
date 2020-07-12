@@ -5,7 +5,7 @@
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 2| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -62,7 +62,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Ensuring responsive works on all devices | H | 3hr | -hr | -hr|
 | Hamburger menu | H | 2hr | -hr | -hr|
 | Deploying website | H | 1hr | -hr | -hr|
-| Total | H | 23.5hr | -hr | -hr |
+| Total | - | 23.5hr | -hr | -hr |
 
 
 #### Post MVP
@@ -73,8 +73,8 @@ The purpose of this project is to create my own website to showcase my projects 
 | Click on navigation bar to jump to that specific part of the webpage | M | 2hr | -hr | -hr|
 | Create a "Skills" section to display the languages I am learning | M | 2hr| -hr | -hr |
 | Once "Skills" section is created, add proficiency bars | L | 2hr | -hr | -hr|
-| Create a "Work Experience" section with my resume| H | 2hr | -hr | -hr|
+| Create a "Work Experience" section with my resume| L | 2hr | -hr | -hr|
 | Social media icons at the bottom of the page| M | 1.5hr | -hr | -hr |
 | Make a cool graphic for the banner | L | 1.5hr | -hr | -hr |
-| Total | H | 17.5hr | -hrs | -hrs |
+| Total | - | 17.5hr | -hrs | -hrs |
 
