@@ -35,7 +35,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
 | Fri, July 17 | Depoly website | Incomplete | -hr |		
  
-## MVP/PostMVP
+## MVP/Post MVP
 
 #### MVP
 - Use HTML and CSS to add an "About Me", "Projects, and "Contact Me" section
