@@ -9,16 +9,18 @@ const navBar = ['About Me', 'Projects', 'Contact Me'];
 const $ul = $('<ul>');
 $('nav').append($ul);
 const addToNavBar = navBar.forEach((element) => {
+    //Creating list elements and adding class
     const $li = $('<li>');
-    //Creating divs that will be formatted via flexbox
-    // const $div = $('<div>');
-    
     ($li).addClass('nav-element');
+    
+    //Adding the names of each nav element and removing bullets from unordered list
     ($li).css('list-style-type', 'none');
     ($li).text(element);
 
-    //Appending list elements to separate divs
-    // ($div).append($li);
+    //Adding a class of 'hidden' which will be later used for the hamburger menu
+    ($li).addClass('hidden');
+
+    //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
