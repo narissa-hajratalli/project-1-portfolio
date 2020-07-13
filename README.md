@@ -69,10 +69,12 @@ The purpose of this project is to create my own website to showcase my projects 
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
 | "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
 | Working with API | H | 3hrs | -hr | -hr |
-| Ensuring responsive works on all devices | H | 3hrs | -hr | -hr|
+| Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
+| Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
+| Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
 | Hamburger menu | H | 2hrs | -hr | -hr|
 | Deploying website | H | 2hr | -hr | -hr|
-| Total | - | 24.5hrs | -hr | -hr |
+| Total | - | 27.5hrs | -hr | -hr |
 
 
 #### Post MVP
