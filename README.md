@@ -1,4 +1,4 @@
-# Project 1 - Portfolio
+# Project Proposal
 
 ## Project Schedule
 
@@ -15,27 +15,27 @@
 The purpose of this project is to create my own website to showcase my projects on my journey to becoming a Software Engineer. My website will include my photo, my bio, my projects thus far, and a "Contact Me" portion. 
 
 ## Google Sheet
-- [Google Doc](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0)
+- [Projects](https://docs.google.com/spreadsheets/d/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/edit#gid=0)
 
 ## Wireframes
 - [Desktop](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/Desktop_v6x5r0.png)
 - [iPad](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/iPad_g0aigm.png)
-- [Mobile](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/iPad_g0aigm.png)
+- [Mobile](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/Mobile_pdfbi0.png)
 
 ## Time/Priority Matrix 
 - [Graphic](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594527180/Project%201%20-%20Portfolio/IMG_0878_tzriig.jpg)
 
 |Deliverable	| Status	| Time Spent |
 | --- | :---: |  :---: | 
-| Sat, July 11 | Project Proposal	| Complete | 8 hrs
-| Sun, July 12 | Research ideas	| Incomplete	| -hr |
+| Sat, July 11 | Project Proposal	| Complete | 8 hrs |
+| Sun, July 12 | Research ideas	| Complete	| 3 hrs |
 | Mon, July 13 | Compile List of Projects and connect using API | Incomplete | -hr |
 | Tues, July 14 | HTML & CSS built | Incomplete | -hr |
 | Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
 | Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
 | Fri, July 17 | Depoly website | Incomplete | -hr |		
  
-## MVP/PostMVP
+## MVP/Post MVP
 
 #### MVP
 - Use HTML and CSS to add an "About Me", "Projects, and "Contact Me" section
@@ -69,10 +69,12 @@ The purpose of this project is to create my own website to showcase my projects 
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
 | "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
 | Working with API | H | 3hrs | -hr | -hr |
-| Ensuring responsive works on all devices | H | 3hrs | -hr | -hr|
+| Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
+| Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
+| Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
 | Hamburger menu | H | 2hrs | -hr | -hr|
-| Deploying website | H | 1hr | -hr | -hr|
-| Total | - | 23.5hrs | -hr | -hr |
+| Deploying website | H | 2hr | -hr | -hr|
+| Total | - | 27.5hrs | -hr | -hr |
 
 
 #### Post MVP
