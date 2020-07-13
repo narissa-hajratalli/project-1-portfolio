@@ -27,8 +27,8 @@ The purpose of this project is to create my own website to showcase my projects 
 
 |Deliverable	| Status	| Time Spent |
 | --- | :---: |  :---: | 
-| Sat, July 11 | Project Proposal	| Complete | 8 hrs
-| Sun, July 12 | Research ideas	| Incomplete	| -hr |
+| Sat, July 11 | Project Proposal	| Complete | 8 hrs |
+| Sun, July 12 | Research ideas	| Complete	| 3 hrs |
 | Mon, July 13 | Compile List of Projects and connect using API | Incomplete | -hr |
 | Tues, July 14 | HTML & CSS built | Incomplete | -hr |
 | Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
