@@ -20,7 +20,7 @@ The purpose of this project is to create my own website to showcase my projects 
 ## Wireframes
 - [Desktop](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/Desktop_v6x5r0.png)
 - [iPad](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/iPad_g0aigm.png)
-- [Mobile](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/iPad_g0aigm.png)
+- [Mobile](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/Mobile_pdfbi0.png)
 
 ## Time/Priority Matrix 
 - [Graphic](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594527180/Project%201%20-%20Portfolio/IMG_0878_tzriig.jpg)
