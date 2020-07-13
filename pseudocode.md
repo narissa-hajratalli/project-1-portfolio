@@ -1,7 +1,7 @@
-# For the carasoul 
+### For the carasoul 
 - [Carousel](https://codepen.io/desandro/pen/jEpxqJ?editors=0100)
 
-# ------CREATING THE NAV BAR----- 
+#### CREATING THE NAV BAR
 SET navBar equal to "About Me", "Projects", and "Contact Me"
 CREATE unordered list 
 APPEND unordered list to <nav>
@@ -10,7 +10,8 @@ PROCEDURE addToNavBar
         CREATE a list element
         ADD class equal to "nav-element"
         REMOVE bullet points
-        SET display to inline
+        SET display to inline-flex 
+        ADD text
         APPEND list elements to unordered list
     END FOR EACH
 END PROCEDURE 

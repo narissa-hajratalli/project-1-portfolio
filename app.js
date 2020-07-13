@@ -10,11 +10,19 @@ const $ul = $('<ul>');
 $('nav').append($ul);
 const addToNavBar = navBar.forEach((element) => {
     const $li = $('<li>');
+    //Creating divs that will be formatted via flexbox
+    // const $div = $('<div>');
+    
     ($li).addClass('nav-element');
     ($li).css('list-style-type', 'none');
-    
+    ($li).text(element);
 
-}
+    //Appending list elements to separate divs
+    // ($div).append($li);
+
+    //Appending the divs to the unordered list
+    ($ul).append($li); 
+})
 
 
 
