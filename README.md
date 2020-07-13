@@ -15,7 +15,7 @@
 The purpose of this project is to create my own website to showcase my projects on my journey to becoming a Software Engineer. My website will include my photo, my bio, my projects thus far, and a "Contact Me" portion. 
 
 ## Google Sheet
-- [Google Sheet](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0)
+- [Projects](https://docs.google.com/spreadsheets/d/1V1M3Eq1NXH2PNmeTlVviRhEjX9kenq769Vo2P5mMtro/edit#gid=0)
 
 ## Wireframes
 - [Desktop](https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594515015/Project%201%20-%20Portfolio/Desktop_v6x5r0.png)
@@ -71,8 +71,8 @@ The purpose of this project is to create my own website to showcase my projects 
 | Working with API | H | 3hrs | -hr | -hr |
 | Ensuring responsive works on all devices | H | 3hrs | -hr | -hr|
 | Hamburger menu | H | 2hrs | -hr | -hr|
-| Deploying website | H | 1hr | -hr | -hr|
-| Total | - | 23.5hrs | -hr | -hr |
+| Deploying website | H | 2hr | -hr | -hr|
+| Total | - | 24.5hrs | -hr | -hr |
 
 
 #### Post MVP
