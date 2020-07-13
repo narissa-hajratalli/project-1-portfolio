@@ -5,7 +5,16 @@ $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
 //------CREATING THE NAV BAR-----
-// const navBar = ['About Me', ''
+const navBar = ['About Me', 'Projects', 'Contact Me'];
+const $ul = $('<ul>');
+$('nav').append($ul);
+const addToNavBar = navBar.forEach((element) => {
+    const $li = $('<li>');
+    ($li).addClass('nav-element');
+    ($li).css('list-style-type', 'none');
+    
+
+}
 
 
 
