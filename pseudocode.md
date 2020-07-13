@@ -1,4 +1,4 @@
-### For the carousel (most mvp)
+#### For the carousel (most mvp)
 - [Carousel](https://codepen.io/desandro/pen/jEpxqJ?editors=0100)
 
 #### CREATING THE NAV BAR
@@ -14,9 +14,11 @@ PROCEDURE addToNavBar  <br />
         ADD text  <br />
         APPEND list elements to unordered list  <br />
     END FOR EACH  <br />
-END PROCEDURE   <br />
+END PROCEDURE   <br /> 
 
-### HAMBURGER MENU 
+#### HAMBURGER MENU 
+- [Hamburger](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
+
 ADD class of 'hidden' to each li  <br />
 ADD a href to each li  <br />
 
