@@ -29,9 +29,9 @@ The purpose of this project is to create my own website to showcase my projects 
 | --- | :---: |  :---: | 
 | Sat, July 11 | Project Proposal	| Complete | 8 hrs |
 | Sun, July 12 | Research ideas	| Complete	| 3 hrs |
-| Mon, July 13 | Compile List of Projects and connect using API | Incomplete | -hr |
+| Mon, July 13 | Compile List of Projects and connect using API | Complete | 2 hrs |
 | Tues, July 14 | HTML & CSS built | Incomplete | -hr |
-| Wed, July 15 | Responsiveness & hamburger menu | Incomplete | -hr |
+| Wed, July 15 | Responsiveness & hamburger menu | Incomplete | 1 hr |
 | Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
 | Fri, July 17 | Depoly website | Incomplete | -hr |		
  
@@ -63,12 +63,13 @@ The purpose of this project is to create my own website to showcase my projects 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | "About Me" section (including photo and bio)  | H | 2hrs | -hr | -hr|
-| Naviagation bar | M | 1.5hrs | -hr | -hr|
-| Styling navigation bar & "About Me" with grid and flexbox | H | 3hrs | -hr | -hr|
-| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| -hr | -hr |
+| Naviagation bar | M | 1.5hrs | 1 hr | -hr|
+| Styling navigation bar with grid and flexbox | H | 3hrs | 1.5 hr | -hr|
+| Styling "About Me" with grid and flexbox | H | 3hrs | -hr | -hr|
+| Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| hr | -hr |
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
 | "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
-| Working with API | H | 3hrs | -hr | -hr |
+| Working with API for projects | H | 3hrs | 4.5 hrs | -hr |
 | Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
 | Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
