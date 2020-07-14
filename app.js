@@ -100,5 +100,6 @@ const app = (data) => {
 
 //-----------ADDING GOOGLE FORM-------------
 const $contact = $('<iframe>')
-$('body').append($contact);
-/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegCEYHQOgFrH8Pf2gGt3SEABdtKUcAdgVeEWvScGtCqTstw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+($contact).insertAfter('div');
+// ($contact).html('src', '"https://docs.google.com/forms/d/e/1FAIpQLSdegCEYHQOgFrH8Pf2gGt3SEABdtKUcAdgVeEWvScGtCqTstw/viewform?embedded=true");
+/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegCEYHQOgFrH8Pf2gGt3SEABdtKUcAdgVeEWvScGtCqTstw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */
