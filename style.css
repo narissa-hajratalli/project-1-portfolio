@@ -91,11 +91,17 @@ li {
 
     header {
         width: 100%;
+        margin: 0 auto;
     }
 
 }
 
-@media only screen and (min-width: 960px) {
-
+@media only screen and (max-width: 960px) {
+    .hidden {
+        display: inline;
+    }
+    .shown {
+        display: inline;
+    }
     
 }

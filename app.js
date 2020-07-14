@@ -17,18 +17,10 @@ const $a1 = $('<a>').attr('href', '/');
 ($hamburger).addClass('hamburger');
 
 //Creating three lines within the hamburger menu
-// const $div = $('<div>')
-
-//Using a for loop to add three divs to the hamburger menu, representing the three lines
-function addDiv() {
-    for (let i = 0 ; i < 3; i++) {
-        const $div1 = $('<div>')
-        ($div1).addClass('line');
-        ($hamburger).append($div1);
-    }
-}
-
-addDiv(); 
+const $div1 = $('<div>').addClass('line');
+($hamburger).append($div1);
+($hamburger).append($div1);
+($hamburger).append($div1);
 
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
@@ -59,7 +51,7 @@ const addToNavBar = navBar.forEach((element) => {
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
 //SOURCE: In-class presentation 7/13 (https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
-console.log($)
+//console.log($)
 const url = 'https://spreadsheets.google.com/feeds/list/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/od6/public/values?alt=json'
 fetch(url)
     .then(response => response.json())
@@ -85,8 +77,8 @@ fetch(url)
 })
 
 const app = (data) => {
-    console.log('app is running');
-    console.log(data);
+    //console.log('app is running');
+    //console.log(data);
 
     const createProjectElement = (project) => {
         const $div = $('<div>');
