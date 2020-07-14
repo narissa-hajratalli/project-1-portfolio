@@ -31,10 +31,10 @@ header {
 h1  {
     text-align: center;
     border: 1px solid black;
-    padding-top: 20px;
+    padding-top: 5vw;
     padding-bottom: 20px;
     color: white;
-    font-family: 'MuseoModerno', cursive;
+    font-family: 'Satisfy', cursive;
     font-size: 9vw;
 }
 
@@ -63,11 +63,12 @@ li {
     margin-left: 10vw;
     margin-top: 5vw;
     width: 40%;
+    display: flex;
   }
 
 /* -------ABOUT ME------ */
 h2 {
-    font-family: 'Satisfy', cursive;
+    font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
     padding-top: 5%; /* Make padding more responsive, looks weird in small screens */
@@ -128,10 +129,10 @@ h2 {
 
 }
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
    
     header {
         width: 100%;
     }
-} */
+}
 

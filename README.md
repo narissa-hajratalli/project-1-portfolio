@@ -65,14 +65,14 @@ The purpose of this project is to create my own website to showcase my projects 
 | "About Me" section (including photo and bio)  | H | 2hrs | -hr | -hr|
 | Naviagation bar | M | 1.5hrs | 1 hr | -hr|
 | Styling navigation bar with grid and flexbox | H | 3hrs | 1.5 hr | -hr|
-| Styling "About Me" with grid and flexbox | H | 3hrs | 1 hr | -hr|
+| Styling "About Me" with grid and flexbox | H | 3hrs | 1.75 hr | -hr|
 | Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| hr | -hr |
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
 | "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
 | Working with API for projects | H | 3hrs | 4.5 hrs | -hr |
 | Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
-| Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
+| Ensuring responsive for mobile | H | 2hrs | 2hr | -hr|
 | Hamburger menu | H | 2hrs | 3 hr | -hr|
 | Deploying website | H | 2hr | -hr | -hr|
 | Total | - | 27.5hrs | -hr | -hr |
