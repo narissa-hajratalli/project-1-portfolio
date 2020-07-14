@@ -14,6 +14,7 @@ const $hamburger = $('<li>');
 ($ul).append($hamburger);
 const $a1 = $('<a>').attr('href', '/');
 ($hamburger).append($a1);
+($hamburger).addClass('hamburger');
 
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
