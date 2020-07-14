@@ -5,6 +5,11 @@
 
 
 /* -------HEADER------- */
+header {
+    width: 75%;
+    margin: auto;
+}
+
 h1  {
     text-align: center;
     border: 1px solid black;
@@ -15,6 +20,8 @@ h1  {
 /* -------NAV BAR------ */
 nav {
     border: 1px solid black;
+    width: 75%;
+    margin: auto;
 }
 
 ul {

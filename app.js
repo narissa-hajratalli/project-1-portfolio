@@ -1,36 +1,45 @@
-
 //------CREATING THE NAME BANNER-----
 const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
-//------CREATING THE NAV BAR-----
-const navBar = ['About Me', 'Projects', 'Contact Me'];
+
+
+//------CREATING THE NAV BAR AND COMPONENTS OF HAMBURGER MENU---------
 const $ul = $('<ul>');
 $('nav').append($ul);
+
+//Creating the hamburger as a list element
+const $hamburger = $('<li>');
+($ul).append($hamburger);
+const $a1 = $('<a>').attr('href', '/');
+($hamburger).append($a1);
+
+//Function to loop through each element in navBar and add it to the nav 
+const navBar = ['About Me', 'Projects', 'Contact Me'];
 const addToNavBar = navBar.forEach((element) => {
     //Creating list elements and adding class
     const $li = $('<li>');
     ($li).addClass('nav-element');
-    
-    //Adding the names of each nav element and removing bullets from unordered list
-    ($li).css('list-style-type', 'none');
-    ($li).text(element);
 
     //Adding a class of 'hidden' which will be later used for the hamburger menu
     ($li).addClass('hidden');
 
+    //Removing bullets from unordered list
+    ($li).css('list-style-type', 'none');
+
     //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
-    const $a = $('<a>').html('href', '/');
+    const $a = $('<a>').attr('href', '/');
     ($li).append($a);
-    // console.log($a)
-    // ($li).attr('href', '/');
+
+    //Adding the names of each nav element 
+    ($a).text(element);
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
 })
 
-
+//-------ADDING THE HAMBURGER MENU------
 
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
