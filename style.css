@@ -37,22 +37,20 @@ li {
 }
 
 @media only screen and (max-width: 640px) {
-    .hidden {
+    .hamburger {
+        float: left;
+        display: block;
+      }
+      .hidden {
         overflow: hidden;
         padding-top: 0;
         padding-bottom: 0;
         height: 0;
         border-width: 0;
     }
-    .hamburger {
-        float: right;
-        display: block;
-      }
-    
-      header nav > ul > li:nth-child(4) a:before {
-        content:'\2630';
-        font-size: 24px;
-      }
+    header {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 960px) {
