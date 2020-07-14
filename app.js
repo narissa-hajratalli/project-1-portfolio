@@ -21,6 +21,10 @@ const addToNavBar = navBar.forEach((element) => {
     ($li).addClass('hidden');
 
     //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
+    const $a = $('<a>').html('href', '/');
+    ($li).append($a);
+    // console.log($a)
+    // ($li).attr('href', '/');
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
