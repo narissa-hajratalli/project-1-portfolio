@@ -16,6 +16,15 @@ const $a1 = $('<a>').attr('href', '/');
 ($hamburger).append($a1);
 ($hamburger).addClass('hamburger');
 
+//Creating three lines within the hamburger menu
+const $div = $('<div>')
+
+//Using a for loop to add three divs to the hamburger menu, representing the three lines
+for (let i = 0 ; i < 3; i++) {
+    ($div).addClass('line');
+    ($hamburger).append($div);
+}
+
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
 const addToNavBar = navBar.forEach((element) => {

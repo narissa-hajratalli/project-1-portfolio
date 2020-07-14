@@ -19,8 +19,10 @@ END PROCEDURE   <br />
 #### HAMBURGER MENU 
 - [Hamburger](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
 
-ADD class of 'hidden' to each li  <br />
-ADD a href to each li  <br />
+PROCEDURE addToNavBar <br />
+    ADD class of 'hidden' to each li  <br />
+    ADD a href to each li  <br />
+END PROCEDURE
 
 
 
