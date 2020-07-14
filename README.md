@@ -68,7 +68,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Styling "About Me" with grid and flexbox | H | 3hrs | 1.75 hr | -hr|
 | Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| hr | -hr |
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
-| "Contact Me" section and input fields| H | 4hrs | -hr | -hr|
+| "Contact Me" section and input fields| H | 4hrs | 1.5 hrs | -hr|
 | Working with API for projects | H | 3hrs | 4.5 hrs | -hr |
 | Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|

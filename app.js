@@ -94,12 +94,6 @@ const app = (data) => {
 
     data.forEach(project => {
         const $projectDiv = createProjectElement(project);
-        $('body').append($projectDiv);
+        $('#projects-container').append($projectDiv);
     })
 }
-
-//-----------ADDING GOOGLE FORM-------------
-const $contact = $('<iframe>')
-($contact).insertAfter('div');
-// ($contact).html('src', '"https://docs.google.com/forms/d/e/1FAIpQLSdegCEYHQOgFrH8Pf2gGt3SEABdtKUcAdgVeEWvScGtCqTstw/viewform?embedded=true");
-/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegCEYHQOgFrH8Pf2gGt3SEABdtKUcAdgVeEWvScGtCqTstw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */
