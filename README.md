@@ -73,7 +73,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
 | Ensuring responsive for mobile | H | 2hrs | -hr | -hr|
-| Hamburger menu | H | 2hrs | 1 hr | -hr|
+| Hamburger menu | H | 2hrs | 2 hr | -hr|
 | Deploying website | H | 2hr | -hr | -hr|
 | Total | - | 27.5hrs | -hr | -hr |
 
