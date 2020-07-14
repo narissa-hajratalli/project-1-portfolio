@@ -41,14 +41,13 @@ h1  {
 nav {
     border: 1px solid black;
     width: 75%;
-    margin: auto;
+    margin: auto; /*this centers the nav bar in the middle of the page*/
     background-color: lavender;
     opacity: 0.5;
 }
 
 ul {
     width: 100%; /* This stretches the unordered list div to the length of the nav bar */
-    margin: 0 auto;
     text-align: center;
     display: inline-flex;
     justify-content: center;
