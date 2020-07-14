@@ -58,6 +58,14 @@ li {
     padding: 10px;
 }
 
+/* -------ABOUT ME------ */
+h2 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 5%; /* Make padding more responsive, looks weird in small screens */
+}
+
 .me {
     border-radius: 50%;
     margin-left: 10vw;
@@ -66,13 +74,17 @@ li {
     display: flex;
   }
 
-/* -------ABOUT ME------ */
-h2 {
-    font-family: 'MuseoModerno', cursive;
-    font-size: 5vw;
-    text-align: center;
-    padding-top: 5%; /* Make padding more responsive, looks weird in small screens */
-}
+  #bio {
+    font-family: 'Fira Sans', sans-serif;
+    /* padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-left: 2vw;
+    margin-left: 2vw; */
+    border: 1px solid black;
+  }
+
+
+
 /* -------HAMBURGER------ */
 
 @media only screen and (max-width: 960px) {
@@ -141,6 +153,10 @@ h2 {
     }
 
     .contact-me {
+        width: 400px;
+    }
+
+    #bio {
         width: 400px;
     }
 }

@@ -62,7 +62,7 @@ The purpose of this project is to create my own website to showcase my projects 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| "About Me" section (including photo and bio)  | H | 2hrs | -hr | -hr|
+| "About Me" section (including photo and bio)  | H | 2hrs | 1.5 hrs | -hr|
 | Naviagation bar | M | 1.5hrs | 1 hr | -hr|
 | Styling navigation bar with grid and flexbox | H | 3hrs | 1.5 hr | -hr|
 | Styling "About Me" with grid and flexbox | H | 3hrs | 1.75 hr | -hr|
