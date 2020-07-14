@@ -30,7 +30,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Sat, July 11 | Project Proposal	| Complete | 8 hrs |
 | Sun, July 12 | Research ideas	| Complete	| 3 hrs |
 | Mon, July 13 | Compile List of Projects and connect using API | Complete | 2 hrs |
-| Tues, July 14 | HTML & CSS built | Incomplete | -hr |
+| Tues, July 14 | HTML & CSS built | Incomplete | 1.5 hrs |
 | Wed, July 15 | Responsiveness & hamburger menu | Incomplete | 1 hr |
 | Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
 | Fri, July 17 | Depoly website | Incomplete | -hr |		
