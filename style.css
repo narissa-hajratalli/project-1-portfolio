@@ -34,7 +34,8 @@ h1  {
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    font-family: 'Sacramento', cursive;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 9vw;
 }
 
 /* -------NAV BAR------ */
@@ -57,7 +58,32 @@ li {
     padding: 10px;
 }
 
+.me {
+    border-radius: 50%;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    width: 40%;
+  }
+
+/* -------ABOUT ME------ */
+h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 5%; /* Make padding more responsive, looks weird in small screens */
+}
 /* -------HAMBURGER------ */
+
+@media only screen and (max-width: 960px) {
+    .hidden {
+        display: inline;
+    }
+    .shown {
+        display: inline;
+    }
+    
+}
+
 
 @media only screen and (max-width: 640px) {
     .hamburger {
@@ -91,17 +117,21 @@ li {
 
     header {
         width: 100%;
-        margin: 0 auto;
-    }
-
-}
-
-@media only screen and (max-width: 960px) {
-    .hidden {
-        display: inline;
-    }
-    .shown {
-        display: inline;
+        /* margin: 0 auto; */
     }
     
+    .me {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
 }
+
+/* @media only screen and (max-width: 400px) {
+   
+    header {
+        width: 100%;
+    }
+} */
+

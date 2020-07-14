@@ -16,11 +16,13 @@ const $a1 = $('<a>').attr('href', '/');
 ($hamburger).append($a1);
 ($hamburger).addClass('hamburger');
 
-//Creating three lines within the hamburger menu
-const $div1 = $('<div>').addClass('line');
-($hamburger).append($div1);
-($hamburger).append($div1);
-($hamburger).append($div1);
+// //Creating three lines within the hamburger menu
+// const $div1 = $('<div>');
+// const $div2 = $('<div>');
+// const $div3 = $('<div>');
+// ($hamburger).append($div1);
+// ($hamburger).append($div2);
+// ($hamburger).append($div3);
 
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
