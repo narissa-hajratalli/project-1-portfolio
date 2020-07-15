@@ -145,6 +145,21 @@ h2 {
       .menu-btn-burger::after{
         transform: translateY(10px);
     }
+    /*Hamburger animation 1 - makes all three lines move out of the box and makes the middle line disappear*/
+    .hamburger.open .menu-btn-burger {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+    /*Hamburger animation 2 - rotates the before line 45 degrees upward */
+    .hamburger.open .menu-btn-burger::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+
+    /*Hamburger animation 3 - rotates the after line 45 degrees downward */
+    .hamburger.open .menu-btn-burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
 
       .hidden {
         overflow: hidden;

@@ -25,5 +25,11 @@ PROCEDURE addToNavBar <br />
     ADD a href to each li  <br />
 END PROCEDURE
 
+PROCEDURE on click <br />
+    display nav-element as block <br />
+    add background color of white and opacity of 0.5 <br />
+    float right <br />
+END PROCEDURE
+    
 
 

@@ -3,24 +3,24 @@ const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
+//-------CREATING HAMBURGER MENU FUNCTIONALITY------
+//For opening and closing
+let menuOpen = false;
+$('.hamburger').click( () => {
+    if (!menuOpen) {
+        $('.hamburger').addClass('open');
+        menuOpen = true;
+        console.log('true')
+    } else {
+        $('.hamburger').removeClass('open');
+        menuOpen = false;
+        console.log('false')
+    }
+})
+
 //------CREATING THE NAV BAR--------
 const $ul = $('<ul>');
 $('nav').append($ul);
-
-//Creating the hamburger as a list element
-// const $hamburger = $('<li>');
-// ($ul).append($hamburger);
-// const $a1 = $('<a>').attr('href', '/');
-// ($hamburger).append($a1);
-// ($hamburger).addClass('hamburger');
-
-// //Creating three lines within the hamburger menu
-// const $div1 = $('<div>');
-// const $div2 = $('<div>');
-// const $div3 = $('<div>');
-// ($hamburger).append($div1);
-// ($hamburger).append($div2);
-// ($hamburger).append($div3);
 
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
@@ -44,21 +44,6 @@ const addToNavBar = navBar.forEach((element) => {
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
-})
-
-//-------CREATING HAMBURGER MENU FUNCTIONALITY------
-//For opening and closing
-let menuOpen = false;
-$('.hamburger').click( () => {
-    if (!menuOpen) {
-        $('.hamburger').addClass('open');
-        menuOpen = true;
-        console.log('true')
-    } else {
-        $('.hamburger').removeClass('open');
-        menuOpen = false;
-        console.log('false')
-    }
 })
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
@@ -100,8 +85,6 @@ const app = (data) => {
         $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT'));
         return $div; 
     }
-    // $('body').append(createProjectElement(data[0])); 
-
     data.forEach(project => {
         const $projectDiv = createProjectElement(project);
         $('#projects-container').append($projectDiv);
