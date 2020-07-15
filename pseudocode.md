@@ -22,6 +22,7 @@ END PROCEDURE   <br />
 #### HAMBURGER MENU 
 - [Resource 1](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
 - [Resource 2](https://www.youtube.com/watch?v=dIyVTjJAkLw)
+- [Resource 3](https://codepen.io/sureshmelvinsigera/pen/KKVxbOW)
 
 PROCEDURE addToNavBar <br />
     ADD class of 'hidden' to each li  <br />
@@ -33,5 +34,7 @@ PROCEDURE on click <br />
     add background color of white and opacity of 0.5 <br />
     float right <br />
 END PROCEDURE
+
+
     
 

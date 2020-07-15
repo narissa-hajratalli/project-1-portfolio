@@ -48,7 +48,7 @@ nav {
     opacity: 0.5; */
 }
 
-ul {
+nav ul {
     width: 100%; /* This stretches the unordered list div to the length of the nav bar */
     text-align: center;
     display: inline-flex;
@@ -75,7 +75,7 @@ h2 {
     display: flex;
   }
 
-  #bio {
+#bio {
     font-family: 'Fira Sans', sans-serif;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -85,17 +85,26 @@ h2 {
     text-indent: 50px;
   }
 
+  /*-----------HAMBURGER-----------*/
+.responsive-menu > ul {
+    list-style-type: none;
+    /* display: hidden; */
+   }
+
+.responsive-menu .expand > ul {
+        display: hidden;
+    }
+
+ /* .format-menu {
+     background-color: blueviolet;
+ } */
+/*---------MEDIA QUERIES-------------*/
 
 @media only screen and (max-width: 960px) {
     .hidden {
         display: inline;
-    }
-    .shown {
-        display: inline;
-    }
-    
+    }  
 }
-
 
 @media only screen and (max-width: 640px) {
 /*Hamburger menu; this will only show up at width of 640px or smaller*/
@@ -114,7 +123,7 @@ h2 {
         margin-right: 3vw;
       }
 
-      .menu-btn-burger {
+    .menu-btn-burger {
           width: 25px;
           height: 3px;
           background: white;
@@ -126,8 +135,8 @@ h2 {
           padding: 1px;
       }
 
-      .menu-btn-burger::before,
-      .menu-btn-burger::after {
+    .menu-btn-burger::before,
+    .menu-btn-burger::after {
         content: '';
         position: absolute;
         width: 25px;
@@ -137,12 +146,12 @@ h2 {
         transition: all .5s ease-in-out;
       }
 
-      /*This moves one of the lines up 16px*/
-      .menu-btn-burger::before{
+    /*This moves one of the lines up 16px*/
+    .menu-btn-burger::before{
           transform: translateY(-10px);
       }
-        /*This moves one of the lines up 16px*/
-      .menu-btn-burger::after{
+    /*This moves one of the lines up 16px*/
+    .menu-btn-burger::after{
         transform: translateY(10px);
     }
     /*Hamburger animation 1 - makes all three lines move out of the box and makes the middle line disappear*/
@@ -160,22 +169,25 @@ h2 {
     .hamburger.open .menu-btn-burger::after {
         transform: rotate(-45deg) translate(35px, 35px);
     }
-
-    .menu-btn span {
-        display: block;
-        width: 19px;
-        height: 3px;
-        margin: 4px 0;
-        background: rgb(0,0,0);
-        z-index: 99;
-       }
         
-       .responsive-menu{
+    .responsive-menu{
         display: none;
        }
+
+       /* .responsive-menu li {
+           display: block;
+       } */
         
-       .expand {
-        display: block !important; 
+    .expand {
+        display: flex !important; 
+        float: right;
+        flex-direction: column;
+        justify-content: right;
+        align-self: center;
+        flex-wrap: wrap;
+        background-color: gainsboro;
+        opacity: 0.5;
+        color: black;
        }
 
     nav {

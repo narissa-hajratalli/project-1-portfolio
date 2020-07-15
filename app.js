@@ -4,11 +4,26 @@ $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
+//This creates the functionality to show my menu items
 jQuery(function($){
     $( '.hamburger' ).click(function(){
-    $('.responsive-menu').toggleClass('expand')
+        $('.responsive-menu').toggleClass('expand')
     })
  })
+
+ //This creates the functionality to make the hamburger lines turn into an X
+let menuOpen = false;
+$('.hamburger').click( () => {
+    if (!menuOpen) {
+        $('.hamburger').addClass('open');
+        menuOpen = true;
+        console.log('true')
+    } else {
+        $('.hamburger').removeClass('open');
+        menuOpen = false;
+        console.log('false')
+    }
+})
 
 
 //------CREATING THE NAV BAR--------

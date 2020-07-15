@@ -64,7 +64,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | --- | :---: |  :---: | :---: | :---: |
 | "About Me" section (including photo and bio)  | H | 2hrs | 1.5 hrs | -hr|
 | Naviagation bar | M | 1.5hrs | 1 hr | -hr|
-| Styling navigation bar with grid and flexbox | H | 3hrs | 1.5 hr | -hr|
+| Styling navigation bar with grid and flexbox | H | 3hrs | 2.5 hrs | -hr|
 | Styling "About Me" with grid and flexbox | H | 3hrs | 2 hrs | -hr|
 | Creating the "Projects" section with descriptions displayed on top of the pictures | H | 2hrs| hr | -hr |
 | Styling "Project" section with grid and flexbox | M | 2hrs | -hr | -hr|
@@ -73,7 +73,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Ensuring responsive for desktop | H | 2hrs | -hr | -hr|
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
 | Ensuring responsive for mobile | H | 2hrs | 2hr | -hr|
-| Hamburger menu | H | 2hrs | 6 hrs | -hr|
+| Hamburger menu | H | 2hrs | 6.5 hrs | -hr|
 | Deploying website | H | 2hr | -hr | -hr|
 | Total | - | 27.5hrs | -hr | -hr |
 
