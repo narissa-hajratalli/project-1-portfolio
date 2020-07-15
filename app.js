@@ -3,7 +3,7 @@ const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
-//------CREATING THE NAV BAR AND COMPONENTS OF HAMBURGER MENU---------
+//------CREATING THE NAV BAR--------
 const $ul = $('<ul>');
 $('nav').append($ul);
 
@@ -46,8 +46,20 @@ const addToNavBar = navBar.forEach((element) => {
     ($ul).append($li); 
 })
 
-//-------ADDING THE HAMBURGER MENU------
-
+//-------CREATING HAMBURGER MENU FUNCTIONALITY------
+//For opening and closing
+let menuOpen = false;
+$('.hamburger').click( () => {
+    if (!menuOpen) {
+        $('.hamburger').addClass('open');
+        menuOpen = true;
+        console.log('true')
+    } else {
+        $('.hamburger').removeClass('open');
+        menuOpen = false;
+        console.log('false')
+    }
+})
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
 //SOURCE: In-class presentation 7/13 (https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)

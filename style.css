@@ -134,16 +134,16 @@ h2 {
         height: 3px;
         background: white;
         border-radius: 5px;
-        transition: all .5s ease-in-out 
+        transition: all .5s ease-in-out;
       }
 
       /*This moves one of the lines up 16px*/
       .menu-btn-burger::before{
-          transform: translateY(-16px);
+          transform: translateY(-10px);
       }
         /*This moves one of the lines up 16px*/
       .menu-btn-burger::after{
-        transform: translateY(16px);
+        transform: translateY(10px);
     }
 
       .hidden {
