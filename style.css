@@ -95,18 +95,16 @@ h2 {
         display: hidden;
     }
 
- /* .format-menu {
-     background-color: blueviolet;
- } */
 /*---------MEDIA QUERIES-------------*/
 
-@media only screen and (max-width: 960px) {
-    .hidden {
-        display: inline;
-    }  
+@media only screen and (min-width: 482px) {
+    .responsive-menu > ul {
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 640px) {
+
+@media only screen and (max-width: 481px) {
 /*Hamburger menu; this will only show up at width of 640px or smaller*/
     .hamburger {
         position: relative;
@@ -173,10 +171,6 @@ h2 {
     .responsive-menu{
         display: none;
        }
-
-       /* .responsive-menu li {
-           display: block;
-       } */
         
     .expand {
         display: flex !important; 
@@ -204,7 +198,6 @@ h2 {
 
     header {
         width: 100%;
-        /* margin: 0 auto; */
     }
     
     .me {
@@ -215,7 +208,8 @@ h2 {
 
 }
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 480px) {
    
     body {
         /* margin: 0; */
