@@ -44,8 +44,8 @@ nav {
     border: 1px solid black;
     width: 75%;
     margin: auto; /*this centers the nav bar in the middle of the page*/
-    background-color: lavender;
-    opacity: 0.5;
+    /* background-color: lavender;
+    opacity: 0.5; */
 }
 
 ul {
@@ -57,6 +57,14 @@ ul {
 
 li {
     padding: 10px;
+}
+
+.hamburger-side {
+    display: block;
+    float: right;
+    border: 1px solid black;
+    list-style-type: none;
+
 }
 
 /* -------ABOUT ME------ */
@@ -161,7 +169,11 @@ h2 {
         transform: rotate(-45deg) translate(35px, 35px);
     }
 
-      .hidden {
+    nav {
+        display: hidden;
+    }
+
+    .hidden {
         overflow: hidden;
         padding-top: 0;
         padding-bottom: 0;

@@ -1,6 +1,9 @@
 #### For the carousel (most mvp)
 - [Carousel](https://codepen.io/desandro/pen/jEpxqJ?editors=0100)
 
+#### Editing Google Sheet
+- (https://www.youtube.com/watch?v=0ZobsvqYA94)
+
 #### CREATING THE NAV BAR
 SET navBar equal to "About Me", "Projects", and "Contact Me"  <br />
 CREATE unordered list  <br />
@@ -31,5 +34,4 @@ PROCEDURE on click <br />
     float right <br />
 END PROCEDURE
     
-
 

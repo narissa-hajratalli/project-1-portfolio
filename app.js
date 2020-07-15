@@ -10,7 +10,8 @@ $('.hamburger').click( () => {
     if (!menuOpen) {
         $('.hamburger').addClass('open');
         menuOpen = true;
-        console.log('true')
+        // const open = () => {
+        // }
     } else {
         $('.hamburger').removeClass('open');
         menuOpen = false;
