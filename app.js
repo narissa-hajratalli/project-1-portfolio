@@ -3,8 +3,6 @@ const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
-
-
 //------CREATING THE NAV BAR AND COMPONENTS OF HAMBURGER MENU---------
 const $ul = $('<ul>');
 $('nav').append($ul);

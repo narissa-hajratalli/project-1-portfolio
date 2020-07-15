@@ -17,7 +17,8 @@ PROCEDURE addToNavBar  <br />
 END PROCEDURE   <br /> 
 
 #### HAMBURGER MENU 
-- [Hamburger](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
+- [Resource 1](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
+- [Resource 2](https://www.youtube.com/watch?v=dIyVTjJAkLw)
 
 PROCEDURE addToNavBar <br />
     ADD class of 'hidden' to each li  <br />

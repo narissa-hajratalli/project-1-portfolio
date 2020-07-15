@@ -105,25 +105,45 @@ h2 {
         float: right;
         justify-content: center;
         align-self: center;
-        width: 40px;
-        height: 40px;
+        width: 55px;
+        height: 55px;
         cursor: pointer;
         transition: all .5s ease-in-out;
         border: 3px solid white;
-        float: center;
+        box-shadow: 0 2px 5px purple;
+        margin-right: 3vw;
       }
 
       .menu-btn-burger {
+          width: 25px;
+          height: 3px;
+          background: white;
+          border-radius: 5px;
+          transition: all .5s ease-in-out;
+          display: flex;
+          justify-content: center;
+          align-self: center;
+          padding: 1px;
       }
 
-      .line {
-        width: 50px;
-        height: 6px;
-        background: black;
+      .menu-btn-burger::before,
+      .menu-btn-burger::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background: white;
         border-radius: 5px;
-        box-shadow: 0 2px 5px grey;
-        transition: all .5s ease-in-out;
-        margin: auto;
+        transition: all .5s ease-in-out 
+      }
+
+      /*This moves one of the lines up 16px*/
+      .menu-btn-burger::before{
+          transform: translateY(-16px);
+      }
+        /*This moves one of the lines up 16px*/
+      .menu-btn-burger::after{
+        transform: translateY(16px);
     }
 
       .hidden {
