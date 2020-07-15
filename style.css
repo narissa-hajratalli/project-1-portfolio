@@ -10,6 +10,7 @@ font-family: 'Satisfy', cursive;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 body {
@@ -76,16 +77,14 @@ h2 {
 
   #bio {
     font-family: 'Fira Sans', sans-serif;
-    /* padding-top: 2vh;
+    padding-top: 2vh;
     padding-bottom: 2vh;
-    margin-left: 2vw;
+    /* margin-left: 2vw;
     margin-left: 2vw; */
     border: 1px solid black;
+    text-indent: 50px;
   }
 
-
-
-/* -------HAMBURGER------ */
 
 @media only screen and (max-width: 960px) {
     .hidden {
@@ -99,15 +98,22 @@ h2 {
 
 
 @media only screen and (max-width: 640px) {
+/*Hamburger menu; this will only show up at width of 640px or smaller*/
     .hamburger {
-        float: right;
+        position: relative;
         display: flex;
-        width: 20px;
-        height: 20px;
+        float: right;
+        justify-content: center;
+        align-self: center;
+        width: 40px;
+        height: 40px;
         cursor: pointer;
         transition: all .5s ease-in-out;
-        border: 3px solid teal;
+        border: 3px solid white;
         float: center;
+      }
+
+      .menu-btn-burger {
       }
 
       .line {
