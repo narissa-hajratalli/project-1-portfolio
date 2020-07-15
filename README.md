@@ -74,7 +74,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Ensuring responsive for iPad | H | 2hrs | -hr | -hr|
 | Ensuring responsive for mobile | H | 2hrs | 2hr | -hr|
 | Hamburger menu | H | 2hrs | 6.5 hrs | -hr|
-| Deploying website | H | 2hr | -hr | -hr|
+| Deploying website | H | 2hr | 45 min | -hr|
 | Total | - | 27.5hrs | -hr | -hr |
 
 
