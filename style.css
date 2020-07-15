@@ -45,9 +45,9 @@ nav {
     width: 75%;
     margin: auto; /*this centers the nav bar in the middle of the page*/
     font-size: 4vh;
-    font-family: 'Sacramento', cursive;
+    font-family: 'MuseoModerno', cursive;
     padding: 2vh;
-
+    
 }
 
 nav ul {
@@ -61,8 +61,19 @@ li {
     padding: 10px;
 }
 
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+a:hover{
+    color: #4429CF;
+}
+
 /* -------ABOUT ME------ */
-h2 {
+#about-me-heading, .projects {
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
