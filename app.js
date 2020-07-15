@@ -4,20 +4,12 @@ $h1.text('Narissa Hajratalli');
 $('header').append($h1);
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
-//For opening and closing
-let menuOpen = false;
-$('.hamburger').click( () => {
-    if (!menuOpen) {
-        $('.hamburger').addClass('open');
-        menuOpen = true;
-        // const open = () => {
-        // }
-    } else {
-        $('.hamburger').removeClass('open');
-        menuOpen = false;
-        console.log('false')
-    }
-})
+jQuery(function($){
+    $( '.hamburger' ).click(function(){
+    $('.responsive-menu').toggleClass('expand')
+    })
+ })
+
 
 //------CREATING THE NAV BAR--------
 const $ul = $('<ul>');
