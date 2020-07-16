@@ -30,6 +30,14 @@ $('.hamburger').click( () => {
 const $ul = $('<ul>');
 $('nav').append($ul);
 
+
+const targets = ['#startabout', '#startproject', '#startcontact'];
+const addTargets = targets.forEach((element) => {
+    return element
+})
+console.log(addTargets);
+
+
 //Function to loop through each element in navBar and add it to the nav 
 const navBar = ['About Me', 'Projects', 'Contact Me'];
 const addToNavBar = navBar.forEach((element) => {
@@ -52,6 +60,9 @@ const addToNavBar = navBar.forEach((element) => {
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
+
+    return $li
+    console.log($li)
 })
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
@@ -91,6 +102,7 @@ const app = (data) => {
         $div.append($('<p>').text(project.description)); 
         $div.append($('<img>').attr('src', project.image));
         $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT'));
+        // $('a').attr('target', '_blank'); to open links in new tab, need to find a way to taget just the a attribute here
         return $div; 
     }
     data.forEach(project => {
