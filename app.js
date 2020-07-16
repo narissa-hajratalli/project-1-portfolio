@@ -33,9 +33,9 @@ $('nav').append($ul);
 
 const targets = ['#startabout', '#startproject', '#startcontact'];
 const addTargets = targets.forEach((element) => {
-    return element
+    return element.toString();
 })
-console.log(addTargets);
+// console.log(addTargets);
 
 
 //Function to loop through each element in navBar and add it to the nav 
