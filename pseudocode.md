@@ -35,6 +35,7 @@ PROCEDURE on click <br />
     float right <br />
 END PROCEDURE
 
-
+#### IMAGE TEXT WRAP FOR ABOUT ME
+- [Resource 1](https://www.youtube.com/watch?v=gBA5zXPddtY')
     
 

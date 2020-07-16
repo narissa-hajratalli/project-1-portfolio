@@ -93,15 +93,21 @@ section {
 .circle {
     position: relative;
     overflow: hidden;
-}
-
-.circle.circle1 {
     width: 500px;
     height: 500px;
     float: left;
     border-radius: 50%;
     margin: 20px;
     shape-outside: circle();
+}
+
+.me {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 80px;
+
 }
 
 section h2 {
@@ -127,12 +133,11 @@ section p {
 /*-----------CONTACT-----------*/
 #contact-container {
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 #contact-me {
-    /*not centering the contact form*/
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 /*---------MEDIA QUERIES-------------*/
@@ -154,16 +159,6 @@ section p {
     .responsive-menu > ul {
         display: none;
     }
-
-    /* .me {
-        float: left;  
-    }
-    
-    #bio {
-        float: right;
-        shape-outside: circle(50%);
-        width: 40%;
-    } */
 }
 
 @media only screen and (max-width: 481px) {
@@ -262,12 +257,6 @@ section p {
     header {
         width: 100%;
     }
-    
-    /* .me {
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-    } */
 
 }
 
@@ -285,9 +274,5 @@ section p {
     .contact-me {
         width: 400px;
     }
-
-    /* #bio {
-        width: 400px;
-    } */
 }
 
