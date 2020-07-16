@@ -44,9 +44,11 @@ nav {
     /* border: 1px solid black; */
     width: 75%;
     margin: auto; /*this centers the nav bar in the middle of the page*/
-    font-size: 4vh;
-    font-family: 'MuseoModerno', cursive;
+    font-size: 3vh;
+    font-family: 'Fira Sans', sans-serif;
     padding: 2vh;
+    display: flex;
+    justify-content: 
     
 }
 
@@ -61,6 +63,10 @@ li {
     padding: 10px;
 }
 
+a {
+    color: inherit;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -73,7 +79,7 @@ a:hover{
 }
 
 /* -------ABOUT ME------ */
-#about-me-heading, .projects {
+#about-me-heading, #projects-heading, #contact-me-heading {
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
