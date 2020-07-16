@@ -20,6 +20,8 @@ body {
     background-size: cover;
     font-family: 'Fira Sans', sans-serif;
     color: white;
+    width: 100%;
+    margin: 0;
 }
 
 /* -------HEADER------- */
@@ -55,6 +57,7 @@ nav ul {
     text-align: center;
     display: inline-flex;
     justify-content: center;
+    list-style-type: none;
 }
 
 li {
@@ -160,6 +163,16 @@ section p {
     }
     .circle {
         shape-outside: none;
+        margin: 0 auto;
+    }
+
+    .me {
+        margin: 0 auto;
+    }
+
+    body {
+        width: 100%;
+        margin-right: 0;
     }
 }
 
@@ -268,11 +281,6 @@ section p {
 }
 
 @media only screen and (max-width: 480px) {
-   
-    body {
-        /* margin: 0; */
-        width: 400px;
-    }
 
     header {
         width: 100%;

@@ -27,11 +27,11 @@ $('.hamburger').click( () => {
 
 
 //------CREATING THE NAV BAR--------
-const $ul = $('<ul>');
-$('nav').append($ul);
+// const $ul = $('<ul>');
+// $('nav').append($ul);
 
 
-// const targets = ['#startabout', '#startproject', '#startcontact'];
+const targets = ['#startabout', '#startproject', '#startcontact'];
 // const addTargets = targets.forEach((navtargets) => {
 //     return element.toString();
 // })
@@ -39,28 +39,45 @@ $('nav').append($ul);
 
 
 //Function to loop through each element in navBar and add it to the nav 
-const navBar = ['About Me', 'Projects', 'Contact Me'];
-const addToNavBar = navBar.forEach((element) => {
-    //Creating list elements and adding class
-    const $li = $('<li>');
-    ($li).addClass('nav-element');
+// const navBar = ['About Me', 'Projects', 'Contact Me'];
+// const addToNavBar = navBar.forEach((element) => {
+//     //Creating list elements and adding class
+//     const $li = $('<li>');
+//     ($li).addClass('nav-element');
 
-    //Adding a class of 'hidden' which will be later used for the hamburger menu
-    ($li).addClass('hidden');
+//     //Adding a class of 'hidden' which will be later used for the hamburger menu
+//     ($li).addClass('hidden');
 
-    //Removing bullets from unordered list
-    ($li).css('list-style-type', 'none');
+//     //Removing bullets from unordered list
+//     ($li).css('list-style-type', 'none');
 
-    //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
-    const $a = $('<a>').attr('href', '#startproject');
-    ($li).append($a);
+//     //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
+//     const $a = $('<a>').attr('href', '/');
+//     ($li).append($a);
 
-    //Adding the names of each nav element 
-    ($a).text(element);
+//     //Adding the names of each nav element 
+//     ($a).text(element);
 
-    //Appending the divs to the unordered list
-    ($ul).append($li); 
-})
+//     //Appending the divs to the unordered list
+//     ($ul).append($li); 
+
+//     return 'Hello World';
+// })
+
+// console.log(addToNavBar());
+
+// let scrollItems = targets.map((element) => {
+//     let item = ($li).attr("href", element);
+//     console.log(element);
+// })
+
+// scrollItems();
+
+// const targets = ['#startabout', '#startproject', '#startcontact'];
+// const addTargets = targets.forEach((navtargets) => {
+//     return element.toString();
+// })
+// console.log(addTargets);
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
 //SOURCE: In-class presentation 7/13 (https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
