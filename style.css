@@ -48,8 +48,6 @@ nav {
     font-family: 'Fira Sans', sans-serif;
     padding: 2vh;
     display: flex;
-    justify-content: 
-    
 }
 
 nav ul {
@@ -92,15 +90,16 @@ a:hover{
     margin-top: 5vw;
     width: 40%;
     display: flex;
+    border: 3px solid white;
+    box-shadow: 10px grey;
+
   }
 
 #bio {
     font-family: 'Fira Sans', sans-serif;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    /* margin-left: 2vw;
-    margin-left: 2vw; */
-    border: 1px solid black;
+    margin-left: 2vw;
     text-indent: 50px;
   }
 
@@ -113,6 +112,11 @@ a:hover{
 .responsive-menu .expand > ul {
         display: hidden;
     }
+
+/*-----------CONTACT-----------*/
+#contact-container {
+    magrin: 0 auto;
+}
 
 /*---------MEDIA QUERIES-------------*/
 
@@ -129,9 +133,19 @@ a:hover{
 }
 
 
-@media only screen and (min-width: 482px) {
+@media only screen and (min-width: 481px) {
     .responsive-menu > ul {
         display: none;
+    }
+
+    .me {
+        float: left;  
+    }
+    
+    #bio {
+        float: right;
+        shape-outside: circle(50%);
+        width: 40%;
     }
 }
 
