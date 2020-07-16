@@ -11,7 +11,7 @@ font-family: 'Satisfy', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 body {
     background-image: url("https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594694622/Project%201%20-%20Portfolio/Vision_Board_-_Narissa_Hajratalli_Final_xu8kz8.png");
@@ -123,7 +123,7 @@ section p {
 /*-----------HAMBURGER-----------*/
 .responsive-menu > ul {
     list-style-type: none;
-    /* display: hidden; */
+    display: hidden;
    }
 
 .responsive-menu .expand > ul {
@@ -154,6 +154,14 @@ section p {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .bio {
+        display: block;
+    }
+    .circle {
+        shape-outside: none;
+    }
+}
 
 @media only screen and (min-width: 481px) {
     .responsive-menu > ul {
@@ -257,7 +265,6 @@ section p {
     header {
         width: 100%;
     }
-
 }
 
 @media only screen and (max-width: 480px) {

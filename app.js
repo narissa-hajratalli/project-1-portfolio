@@ -31,10 +31,10 @@ const $ul = $('<ul>');
 $('nav').append($ul);
 
 
-const targets = ['#startabout', '#startproject', '#startcontact'];
-const addTargets = targets.forEach((element) => {
-    return element.toString();
-})
+// const targets = ['#startabout', '#startproject', '#startcontact'];
+// const addTargets = targets.forEach((navtargets) => {
+//     return element.toString();
+// })
 // console.log(addTargets);
 
 
@@ -52,7 +52,7 @@ const addToNavBar = navBar.forEach((element) => {
     ($li).css('list-style-type', 'none');
 
     //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
-    const $a = $('<a>').attr('href', '/');
+    const $a = $('<a>').attr('href', '#startproject');
     ($li).append($a);
 
     //Adding the names of each nav element 
@@ -60,9 +60,6 @@ const addToNavBar = navBar.forEach((element) => {
 
     //Appending the divs to the unordered list
     ($ul).append($li); 
-
-    return $li
-    console.log($li)
 })
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
