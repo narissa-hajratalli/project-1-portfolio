@@ -155,44 +155,55 @@ section p {
     "title title title"
     "img img img"
     "img img img"
-    "dx dx dx"
-    "dx dx dx"
+    "dx-link dx-link dx-link"
+    /* "dx dx dx"
+    "dx dx dx" */
     /* ". . ." */
-    "link link link";
+    /* "link link link"; */
 }
 
 .project-title {
     grid-area: title;
 }
+
+/*
 .project-dx {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(191, 63, 127, 0.4);
-    padding-top: 30px;
     color: black;
     width: 100%;
     grid-area: dx;
-    /* border: 3px solid red; */
+    border: 3px solid red;
     bottom: 10%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    opacity: 0.2;
-}
+    padding-bottom: 10px;
+    padding-top: 10px;
+    opacity: 0.1;
+    margin-top: auto;
+}*/
+
 .project-dx:hover {
     opacity: 1;
 }
+
 .project-img {
     margin: 0 auto;
     width: 100%;
     grid-area: img;
 }
 
-.project-link {
-    background: rgba(191, 63, 127, 0.4);
-    margin-top: auto;
-    grid-area: link;
-    /* border: 3px solid blue; */
+/*.project-link {
+    /* background: rgba(191, 63, 127, 0.6); */
+    /*margin-top: auto;
+    /* grid-area: link; */
+    /* border: 3px solid blue;
+}*/
+
+div.dx-div {
+    border: 1px solid yellow;
+    grid-area: dx-link;
+    background: rgba(191, 63, 127, 0.6);
 }
 
 /*-----------CONTACT-----------*/

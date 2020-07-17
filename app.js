@@ -62,13 +62,21 @@ const app = (data) => {
     //console.log(data);
 
     const createProjectElement = (project) => {
-        const $div = $('<div>').addClass('project-section');
-        // const $div = $('<div>');
-        $div.append($('<h2>').text(project.title).addClass('project-title'));
-        $div.append($('<p>').text(project.description).addClass('project-dx')); 
-        $div.append($('<img>').attr('src', project.image).addClass('project-img'));
-        $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT').addClass('project-link'));
+        // const $div = $('<div>').addClass('project-section');
+        // $div.append($('<h2>').text(project.title).addClass('project-title'));
+        // $div.append($('<p>').text(project.description).addClass('project-dx')); 
+        // $div.append($('<img>').attr('src', project.image).addClass('project-img'));
+        // $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT').addClass('project-link'));
         // $('a').attr('target', '_blank'); to open links in new tab, need to find a way to taget just the a attribute here
+        // return $div; 
+
+        const $div = $('<div>').addClass('project-section');
+        $div.append($('<h2>').text(project.title).addClass('project-title'));
+        const $dxDiv = $('<div>').addClass('dx-div');
+        $div.append($('<img>').attr('src', project.image).addClass('project-img'));
+        $dxDiv.append($('<p>').text(project.description).addClass('project-dx')); 
+        $dxDiv.append($('<a>').attr('href', project.url).text('LINK TO PROJECT').addClass('project-link'));
+        $div.append($dxDiv);
         return $div; 
     }
     data.forEach(project => {
