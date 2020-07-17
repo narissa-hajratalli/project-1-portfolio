@@ -119,6 +119,7 @@ section h2 {
 
 section p {
     font-size: 1.5em;
+    /* background: rgba(191, 63, 127, 0.4); */
 }
 
 
@@ -156,7 +157,7 @@ section p {
     "img img img"
     "dx dx dx"
     "dx dx dx"
-    ". . ."
+    /* ". . ." */
     "link link link";
 }
 
@@ -175,6 +176,7 @@ section p {
     color: black;
     width: 100%;
     grid-area: dx;
+    border: 3px solid red;
 }
 
 .project-img {
@@ -187,6 +189,7 @@ section p {
     background: rgba(191, 63, 127, 0.4);
     margin-top: auto;
     grid-area: link;
+    border: 3px solid blue;
 }
 
 /*-----------CONTACT-----------*/
