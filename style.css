@@ -83,7 +83,7 @@ a:hover{
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
-    padding-top: 3%; /* Make padding more responsive*/
+    padding-top: 3%; /* Makes padding more responsive*/
 }
 
 section {
@@ -134,8 +134,8 @@ section p {
 
 
 /*---------STYLING PROJECT DIVS------/
-/*See Reference 16*/
-/*See Reference 17*/
+/*Section 10, Reference 1*/
+/*Section 11, Reference 1*/
 #projects-container {
     display: flex;
     flex-wrap: wrap;

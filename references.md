@@ -1,39 +1,40 @@
 
-#### Editing Google Sheet
+#### Section 1: Editing Google Sheet
 - [Reference 1](https://www.youtube.com/watch?v=0ZobsvqYA94)
 
-#### Hamburger menu
-- [Reference 2](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
-- [Reference 3](https://www.youtube.com/watch?v=dIyVTjJAkLw)
-- [Reference 4](https://codepen.io/sureshmelvinsigera/pen/KKVxbOW) 
+#### Section 2: Hamburger menu
+- [Reference 1](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
+- [Reference 2](https://www.youtube.com/watch?v=dIyVTjJAkLw)
+- [Reference 3](https://codepen.io/sureshmelvinsigera/pen/KKVxbOW) 
 
-#### Image text wrap
-- [Reference 5](https://www.youtube.com/watch?v=gBA5zXPddtY')
-- [Reference 6](https://stackoverflow.com/questions/52867877/wrapping-two-columns-of-text-around-an-image-shape-from-both-sides-html-css)
+#### Section 3: Image text wrap
+- [Reference 1](https://www.youtube.com/watch?v=gBA5zXPddtY')
+- [Reference 2](https://stackoverflow.com/questions/52867877/wrapping-two-columns-of-text-around-an-image-shape-from-both-sides-html-css)
 
-#### Adding Google Form
-- [Reference 7](https://www.bettercloud.com/monitor/the-academy/embedding-a-google-form-on-a-public-website/)
+#### Section 4: Adding Google Form
+- [Reference 1](https://www.bettercloud.com/monitor/the-academy/embedding-a-google-form-on-a-public-website/)
 
-#### Jump nav bar
-- [Reference 8](https://codepen.io/sureshmelvinsigera/pen/wvMENVP)
-- Reference 9: Kenal Ortega
+#### Section 5: Jump nav bar
+- [Reference 1](https://codepen.io/sureshmelvinsigera/pen/wvMENVP)
+- Reference 2: Kenal Ortega
 
-#### JSON & API call from Google Sheet
-- [Reference 10: In-class Monday 7/13/2020](https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
+#### Section 6: JSON & API call from Google Sheet
+- [Reference 1: In-class Monday 7/13/2020](https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
 
-#### Deployment
-- [Reference 11](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
+#### Section 7: Deployment
+- [Reference 1](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/)
 
-#### Social Media Icons
-- [Reference 12](https://fontawesome.com/)
+#### Section 8: Social Media Icons
+- [Reference 1](https://fontawesome.com/)
 
-#### For the carousel (post mvp)
-- [Reference 13](https://codepen.io/desandro/pen/jEpxqJ?editors=0100)
-- [Reference 14](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
-- [Reference 15](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+#### Section 9: For the carousel (post mvp)
+- [Reference 1](https://codepen.io/desandro/pen/jEpxqJ?editors=0100)
+- [Reference 2](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
+- [Reference 3](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+- [Reference 4](https://codepen.io/chriscoyier/pen/XwbNwX?editors=0110)
 
-#### Text float over image
-- [Reference 16](https://www.w3schools.com/howto/howto_css_image_text.asp)
+#### Section 10: Text float over image
+- [Reference 1](https://www.w3schools.com/howto/howto_css_image_text.asp)
 
-#### Organizing projects with grid and flexbox
-- [Reference 17](https://www.youtube.com/watch?v=vNIeSoPuPPE&amp;feature=emb_logo)
+#### Section 11: Organizing projects with grid and flexbox
+- [Reference 1](https://www.youtube.com/watch?v=vNIeSoPuPPE&amp;feature=emb_logo)

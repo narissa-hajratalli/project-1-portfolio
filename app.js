@@ -6,7 +6,7 @@ $('header').append($h1);
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
 //This creates the functionality to show my menu items
-//---------See Reference 5---------
+//---------Section 2, Reference 3---------
 jQuery(function($){
     $( '.hamburger' ).click(function(){
         $('.responsive-menu').toggleClass('expand')
@@ -14,7 +14,7 @@ jQuery(function($){
  })
 
  //This creates the functionality to make the hamburger lines turn into an X
- //---------See Reference 6-----------
+ //---------Section 2, Reference 2-----------
 let menuOpen = false;
 $('.hamburger').click( () => {
     if (!menuOpen) {
@@ -31,7 +31,7 @@ $('.hamburger').click( () => {
 
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
-//--------See Reference 11---------
+//--------Section 6, Reference 1---------
 //console.log($)
 const url = 'https://spreadsheets.google.com/feeds/list/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/od6/public/values?alt=json'
 fetch(url)
