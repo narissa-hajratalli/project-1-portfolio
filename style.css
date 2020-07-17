@@ -11,7 +11,6 @@ font-family: 'Satisfy', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
 }
 
 body {
@@ -45,9 +44,9 @@ h1  {
 nav {
     width: 75%;
     margin: auto; /*this centers the nav bar in the middle of the page*/
-    font-size: 3vh;
+    font-size: 5vh;
     font-family: 'Fira Sans', sans-serif;
-    padding: 2vh;
+    padding: 6vh;
     display: flex;
 }
 
@@ -57,6 +56,11 @@ nav ul {
     display: inline-flex;
     justify-content: center;
     list-style-type: none;
+}
+
+.nav-element {
+    font-size: xx-large;
+    font-weight: 900;
 }
 
 li {
@@ -83,13 +87,15 @@ a:hover{
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
-    padding-top: 3%; /* Makes padding more responsive*/
+    padding-top: 3px;
 }
 
 section {
     position: relative;
     width: 100%;
     padding: 50px;
+    border: 1px solid black;
+
 }
 
 .circle {
@@ -101,6 +107,8 @@ section {
     border-radius: 50%;
     margin: 20px;
     shape-outside: circle();
+    border: 1px solid black;
+
 }
 
 .me {
@@ -120,9 +128,7 @@ section h2 {
 
 section p {
     font-size: 1.5em;
-    /* background: rgba(191, 63, 127, 0.4); */
 }
-
 
 /*-----------HAMBURGER-----------*/
 .responsive-menu > ul {
@@ -143,10 +149,9 @@ section p {
 }
 .project-section {
     position: relative;
+    box-shadow: 5px 10px 20px white;
     text-align: center;
     color: white;
-    /* display: inline; */
-    /* border: 4px solid teal; */
     width: 40%;
     margin: 0 auto;
     max-width: 500px;
@@ -192,19 +197,11 @@ section p {
     height: 200px;
 }
 
-.project-link {
-    /* border: 3px solid blue; */
-}
-
 div.dx-div {
-    /* border: 1px solid yellow; */
     grid-area: dx-link;
     background: rgba(191, 63, 127, 0.6);
     opacity: 0.4;
     margin-top: 10px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
 }
 
 div.dx-div:hover {
@@ -225,7 +222,7 @@ div.dx-div:hover {
     justify-content: center;
 }
 
-/*---------SOCIAL------------*/
+/*---------SOCIAL MEDIA ICONS------------*/
 .fa-linkedin {
     width: 20px;
 }
@@ -237,7 +234,6 @@ footer {
 }
 
 /*---------MEDIA QUERIES-------------*/
-
 @media only screen and (min-width: 1200px) {
     nav {
         font-size: 6vh;
@@ -257,11 +253,7 @@ footer {
     .circle {
         shape-outside: none;
         margin: 0 auto;
-    }
-
-    .me {
-        margin: 0 auto;
-    }
+    } /*fix this. text doesn't drop under*/
 
     .body {
         width: 100%;
@@ -270,6 +262,12 @@ footer {
         justify-content: center;
         align-items: center;
         align-self: center;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .nav-element {
+        font-size: x-large;
     }
 }
 
@@ -282,6 +280,20 @@ footer {
 @media only screen and (max-width: 481px) {
 /*Hamburger menu; this will only show up at width of 481px or smaller.*/
 /*This is a common breakpoint for phones*/ 
+    .me {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .circle {
+        width: 100%;
+        height: 100%;        
+    }
+
     .hamburger {
         position: relative;
         display: flex;
@@ -375,6 +387,20 @@ footer {
     header {
         width: 100%;
     }
+
+    /* .me {
+        height: 60px;
+        width: 60px;
+        
+    } */
+
+    .circle {
+        margin-right: 0 auto;
+    }
+
+    #about-me-heading {
+        padding: 3px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -389,7 +415,6 @@ footer {
     .project-section {
         width: 100%;
     }
-    
 
 }
 
