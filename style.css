@@ -183,27 +183,31 @@ section p {
     margin-top: auto;
 }*/
 
-.project-dx:hover {
-    opacity: 1;
+.project-dx {
+    border: 2px solid green;
 }
 
 .project-img {
     margin: 0 auto;
     width: 100%;
     grid-area: img;
+    height: 200px;
 }
 
-/*.project-link {
-    /* background: rgba(191, 63, 127, 0.6); */
-    /*margin-top: auto;
-    /* grid-area: link; */
-    /* border: 3px solid blue;
-}*/
+.project-link {
+    border: 3px solid blue;
+}
 
 div.dx-div {
     border: 1px solid yellow;
     grid-area: dx-link;
     background: rgba(191, 63, 127, 0.6);
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
+div.dx-div:hover {
+    opacity: 1;
 }
 
 /*-----------CONTACT-----------*/
