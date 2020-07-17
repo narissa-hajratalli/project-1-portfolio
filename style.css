@@ -160,7 +160,8 @@ section p {
 
 .project-title {
     grid-area: title;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
 /*
@@ -222,6 +223,17 @@ div.dx-div:hover {
 #contact-me {
     display: flex;
     justify-content: center;
+}
+
+/*---------SOCIAL------------*/
+.fa-linkedin {
+    width: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 /*---------MEDIA QUERIES-------------*/

@@ -82,12 +82,12 @@ The purpose of this project is to create my own website to showcase my projects 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Make the "Projects" section into a gallery view | L | 5 hrs | -hr | -hr|
-| Mouse hover over each project picture to show the description | L | 1.5hrs | -hr | -hr|
+| Mouse hover over each project picture to show the description | L | 1.5hrs | 1 hr | -hr|
 | Click on navigation bar to jump to that specific part of the webpage | M | 2 hrs | 25 mins | -hr|
 | Create a "Skills" section to display the languages I am learning | M | 2 hrs| -hr | -hr |
 | Once "Skills" section is created, add proficiency bars | L | 2 hrs | -hr | -hr|
 | Create a "Work Experience" section with my resume| L | 2 hrs | -hr | -hr|
-| Social media icons at the bottom of the page| M | 1.5 hrs | -hr | -hr |
+| Social media icons at the bottom of the page| M | 1.5 hrs | 40 min | -hr |
 | Make a cool graphic for the banner | L | 1.5 hrs | -hr | -hr |
 | Total | - | 17.5 hrs | -hrs | -hrs |
 
