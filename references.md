@@ -34,3 +34,6 @@
 
 #### Text float over image
 - [Reference 16](https://www.w3schools.com/howto/howto_css_image_text.asp)
+
+#### Organizing projects with grid and flexbox
+- [Reference 17](https://www.youtube.com/watch?v=vNIeSoPuPPE&amp;feature=emb_logo)

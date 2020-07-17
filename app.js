@@ -63,6 +63,7 @@ const app = (data) => {
 
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass('project-section');
+        // const $div = $('<div>');
         $div.append($('<h2>').text(project.title).addClass('project-title'));
         $div.append($('<p>').text(project.description).addClass('project-dx')); 
         $div.append($('<img>').attr('src', project.image).addClass('project-img'));
