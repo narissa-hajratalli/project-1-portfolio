@@ -11,7 +11,7 @@ font-family: 'Satisfy', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -146,7 +146,7 @@ section p {
     text-align: center;
     color: white;
     /* display: inline; */
-    border: 4px solid teal;
+    /* border: 4px solid teal; */
     width: 40%;
     margin: 0 auto;
     max-width: 500px;
@@ -166,19 +166,22 @@ section p {
 }
 .project-dx {
     position: absolute;
-    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
     background: rgba(191, 63, 127, 0.4);
-    box-shadow: gray;
     padding-top: 30px;
     color: black;
     width: 100%;
     grid-area: dx;
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    bottom: 10%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    opacity: 0.2;
 }
-
+.project-dx:hover {
+    opacity: 1;
+}
 .project-img {
     margin: 0 auto;
     width: 100%;
@@ -189,7 +192,7 @@ section p {
     background: rgba(191, 63, 127, 0.4);
     margin-top: auto;
     grid-area: link;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 /*-----------CONTACT-----------*/
