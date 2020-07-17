@@ -2,10 +2,11 @@
 const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
+//-------END NAME BANNER------------
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
 //This creates the functionality to show my menu items
-//See Reference 5
+//---------See Reference 5---------
 jQuery(function($){
     $( '.hamburger' ).click(function(){
         $('.responsive-menu').toggleClass('expand')
@@ -13,7 +14,7 @@ jQuery(function($){
  })
 
  //This creates the functionality to make the hamburger lines turn into an X
- //See Reference 6
+ //---------See Reference 6-----------
 let menuOpen = false;
 $('.hamburger').click( () => {
     if (!menuOpen) {
@@ -26,9 +27,11 @@ $('.hamburger').click( () => {
         console.log('false')
     }
 })
+//---------------------END HAMBURGER--------------------
+
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
-//SOURCE: In-class presentation 7/13 (https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
+//--------See Reference 11---------
 //console.log($)
 const url = 'https://spreadsheets.google.com/feeds/list/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/od6/public/values?alt=json'
 fetch(url)
@@ -59,11 +62,11 @@ const app = (data) => {
     //console.log(data);
 
     const createProjectElement = (project) => {
-        const $div = $('<div>');
-        $div.append($('<h2>').text(project.title));
-        $div.append($('<p>').text(project.description)); 
-        $div.append($('<img>').attr('src', project.image));
-        $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT'));
+        const $div = $('<div>').addClass('project-section');
+        $div.append($('<h2>').text(project.title).addClass('project-title'));
+        $div.append($('<p>').text(project.description).addClass('project-dx')); 
+        $div.append($('<img>').attr('src', project.image).addClass('project-img'));
+        $div.append($('<a>').attr('href', project.url).text('LINK TO PROJECT').addClass('project-link'));
         // $('a').attr('target', '_blank'); to open links in new tab, need to find a way to taget just the a attribute here
         return $div; 
     }
@@ -72,3 +75,4 @@ const app = (data) => {
         $('#projects-container').append($projectDiv);
     })
 }
+//------------------END JSON-----------------------
