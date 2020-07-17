@@ -41,3 +41,7 @@
 
 #### Section 12: Smooth Scroll
 - [Reference 1](https://dev.to/attacomsian/smooth-scroll-to-page-section-with-jquery-2jng#:~:text=Here%20is%20a%20little%20jQuery,This%20value%20is%20in%20milliseconds)
+
+#### Section 13: Codepen icon
+- [Reference 1](https://fontawesome.com/icons/codepen?style=brands)
+- Reference 2: Seola Carrano

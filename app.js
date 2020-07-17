@@ -75,7 +75,8 @@ const app = (data) => {
         const $dxDiv = $('<div>').addClass('dx-div');
         $div.append($('<img>').attr('src', project.image).addClass('project-img'));
         $dxDiv.append($('<p>').text(project.description).addClass('project-dx')); 
-        $dxDiv.append($('<a>').attr('href', project.url).text('LINK TO PROJECT').addClass('project-link'));
+        //Added codepen icons (See Section 13 References 1 and 2)
+        $dxDiv.append($('<a>').attr('href', project.url).html('<i class="fab fa-codepen fa-2x"></i>').addClass('project-link'));
         $div.append($dxDiv);
         return $div; 
     }
