@@ -5,6 +5,7 @@ $('header').append($h1);
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
 //This creates the functionality to show my menu items
+//See Reference 5
 jQuery(function($){
     $( '.hamburger' ).click(function(){
         $('.responsive-menu').toggleClass('expand')
@@ -12,6 +13,7 @@ jQuery(function($){
  })
 
  //This creates the functionality to make the hamburger lines turn into an X
+ //See Reference 6
 let menuOpen = false;
 $('.hamburger').click( () => {
     if (!menuOpen) {
@@ -24,60 +26,6 @@ $('.hamburger').click( () => {
         console.log('false')
     }
 })
-
-
-//------CREATING THE NAV BAR--------
-// const $ul = $('<ul>');
-// $('nav').append($ul);
-
-
-const targets = ['#startabout', '#startproject', '#startcontact'];
-// const addTargets = targets.forEach((navtargets) => {
-//     return element.toString();
-// })
-// console.log(addTargets);
-
-
-//Function to loop through each element in navBar and add it to the nav 
-// const navBar = ['About Me', 'Projects', 'Contact Me'];
-// const addToNavBar = navBar.forEach((element) => {
-//     //Creating list elements and adding class
-//     const $li = $('<li>');
-//     ($li).addClass('nav-element');
-
-//     //Adding a class of 'hidden' which will be later used for the hamburger menu
-//     ($li).addClass('hidden');
-
-//     //Removing bullets from unordered list
-//     ($li).css('list-style-type', 'none');
-
-//     //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
-//     const $a = $('<a>').attr('href', '/');
-//     ($li).append($a);
-
-//     //Adding the names of each nav element 
-//     ($a).text(element);
-
-//     //Appending the divs to the unordered list
-//     ($ul).append($li); 
-
-//     return 'Hello World';
-// })
-
-// console.log(addToNavBar());
-
-// let scrollItems = targets.map((element) => {
-//     let item = ($li).attr("href", element);
-//     console.log(element);
-// })
-
-// scrollItems();
-
-// const targets = ['#startabout', '#startproject', '#startcontact'];
-// const addTargets = targets.forEach((navtargets) => {
-//     return element.toString();
-// })
-// console.log(addTargets);
 
 //-------ADDING PORTFOLIO SECTION USING JSON-------------
 //SOURCE: In-class presentation 7/13 (https://git.generalassemb.ly/narissa-hajratalli/JSON-and-jQuery)
