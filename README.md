@@ -91,5 +91,5 @@ The purpose of this project is to create my own website to showcase my projects 
 | Make a cool graphic for the banner | L | 1.5 hrs | -hr | -hr |
 | Smooth scroll with links | L | 1.5 hrs | -hr | -hr |
 | Make links open in new tab | L | 1 hr | 30 min | 30 min |
-| Total | - | 17.5 hrs | -hrs | -hrs |
+| Total | - | 17.5 hrs | 2 hrs |  2 hrs |
 
