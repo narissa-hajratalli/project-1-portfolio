@@ -6,9 +6,9 @@
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 2| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 ## Project Description
@@ -30,10 +30,10 @@ The purpose of this project is to create my own website to showcase my projects 
 | Sat, July 11 | Project Proposal	| Complete | 8 hrs |
 | Sun, July 12 | Research ideas	| Complete	| 3 hrs |
 | Mon, July 13 | Compile List of Projects and connect using API | Complete | 2 hrs |
-| Tues, July 14 | HTML & CSS built | Incomplete | 1.5 hrs |
-| Wed, July 15 | Responsiveness & hamburger menu | Incomplete | 1 hr |
-| Thurs, July 16 | Finishing touches and Post MVP | Incomplete | -hr |	
-| Fri, July 17 | Depoly website | Incomplete | -hr |		
+| Tues, July 14 | HTML & CSS built | Complete | 5 hrs |
+| Wed, July 15 | Responsiveness & hamburger menu | Complete | 6.5 hrs |
+| Thurs, July 16 | Finishing touches and Post MVP | Complete | 3 hrs |	
+| Fri, July 17 | Depoly website | Complete | 45 min |		
  
 ## MVP/Post MVP
 

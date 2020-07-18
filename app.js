@@ -2,7 +2,7 @@
 const $h1 = $('<h1>');
 $h1.text('Narissa Hajratalli');
 $('header').append($h1);
-//-------END NAME BANNER------------
+//-------END NAME BANNER-------------
 
 //-------CREATING HAMBURGER MENU FUNCTIONALITY------
 //This creates the functionality to show my menu items
@@ -34,18 +34,15 @@ $('.hamburger').click( () => {
 //--------Section 6, Reference 1---------
 //console.log($)
 const url = 'https://spreadsheets.google.com/feeds/list/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/od6/public/values?alt=json'
+
+//Fetch -- go and get that data
+//Response -- takes the json string and converts it to a JS object
 fetch(url)
     .then(response => response.json())
     //response is the information we are getting back
     //this is telling us to parse the json object into JS
     .then(data => {
-        //console.log(data)
-        //console.log(data.feed.entry);
         //gives us just the array of each row in our google sheet 
-
-        //Fetch -- go and get that data
-        //Response -- takes the json string and converts it to a JS object
-
         const projects = data.feed.entry.map((entry) => {
             return {
                 title: entry.gsx$title.$t,

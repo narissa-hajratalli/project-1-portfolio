@@ -3,7 +3,7 @@
 - [Reference 1](https://www.youtube.com/watch?v=0ZobsvqYA94)
 
 #### Section 2: Hamburger menu
-- [Reference 1](https://git.generalassemb.ly/narissa-hajratalli/CSS-Grid-Review-Responsive-Design/tree/master/Responsive%20Design) 
+- [Reference 1](https://git.generalassemb.ly/SEIR-629/CSS-Grid-Review-Responsive-Design) 
 - [Reference 2](https://www.youtube.com/watch?v=dIyVTjJAkLw)
 - [Reference 3](https://codepen.io/sureshmelvinsigera/pen/KKVxbOW) 
 
@@ -32,6 +32,9 @@
 - [Reference 2](https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/)
 - [Reference 3](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
 - [Reference 4](https://codepen.io/chriscoyier/pen/XwbNwX?editors=0110)
+- [Reference 5](https://css-tricks.com/css-only-carousel/)
+- [Refernce 6](https://codepen.io/Schepp/pen/WNbQByE)
+
 
 #### Section 10: Text float over image
 - [Reference 1](https://www.w3schools.com/howto/howto_css_image_text.asp)
@@ -39,9 +42,9 @@
 #### Section 11: Organizing projects with grid and flexbox
 - [Reference 1](https://www.youtube.com/watch?v=vNIeSoPuPPE&amp;feature=emb_logo)
 
-#### Section 12: Smooth Scroll
+#### Section 12: Smooth Scroll (post-mvp)
 - [Reference 1](https://dev.to/attacomsian/smooth-scroll-to-page-section-with-jquery-2jng#:~:text=Here%20is%20a%20little%20jQuery,This%20value%20is%20in%20milliseconds)
 
-#### Section 13: Codepen icon
-- [Reference 1](https://fontawesome.com/icons/codepen?style=brands)
+#### Section 13: Codepen and Social Medial icons
+- [Reference 1](https://fontawesome.com/)
 - Reference 2: Seola Carrano
