@@ -124,8 +124,72 @@ function reverse(string) {
 
 ## Issues and Resolutions
  - Having text wrap around a circular picture
- - Creating the navigation bar purely with jQuery 
- - Round photo distorting the webpage's format on mobile
+ - Creating the navigation bar purely with jQuery: Originally, I attempted to make my navigation bar using jQuery. I ran into an issue when I tried to add individual hrefs to each navigation element because I was creating a 'jump to' type of navigation. The issue was that I had to store the forEach function inside of another function. While this partially fixed the problem, I still received an additional error that my list items containing each navigation element were not returning properly. In the essence of time, I decided to hardcode the navigation elements in HTML. 
+ ``` 
+ //-----MY ATTEMPT 1-----
+
+const targets = ['#startabout', '#startproject', '#startcontact'];
+const addTargets = targets.forEach((navtargets) => {
+     return element.toString();
+})
+console.log(addTargets);
+
+const $ul = $('<ul>');
+$('nav').append("");
+
+//Function to loop through each element in navBar and add it to the nav 
+const navBar = ['About Me', 'Projects', 'Contact Me'];
+const addToNavBar = navBar.forEach((element) => {
+    //Creating list elements and adding class
+    const $li = $('<li>');
+    ($li).addClass('nav-element');
+
+    //Adding a class of 'hidden' which will be later used for the hamburger menu
+    ($li).addClass('hidden');
+
+    //Removing bullets from unordered list
+    ($li).css('list-style-type', 'none');
+
+    //Adding anchor tags and href elements to each list element to be later used for the hamburger menu
+    const $a = $('<a>').attr('href', '/');
+    ($li).append($a);
+
+    //Adding the names of each nav element 
+    ($a).text(element);
+
+    //Appending the divs to the unordered list
+    ($ul).append($li); 
+
+    return 'Hello World';
+})
+
+console.log(addToNavBar());
+
+let scrollItems = targets.map((element) => {
+    let item = ($li).attr("href", element);
+    console.log(element);
+})
+
+scrollItems();
+
+```
+Error 
+```
+addToNavBar is not a function
+```
+
+Partial solution
+```
+const addToNavBar = () =>{
+      navBar.forEach((element) => {
+      ...
+```
+Error 
+```
+$li is not defined
+```
+
+ - Round photo distorting the webpage's format on mobile 
  
 
 #### SAMPLE.....
