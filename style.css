@@ -57,6 +57,7 @@ nav ul {
     display: inline-flex;
     justify-content: center;
     list-style-type: none;
+    background: rgba(191, 63, 127, 0.6);
 }
 
 .nav-element {
@@ -84,13 +85,16 @@ a:hover{
 }
 
 /* -------ABOUT ME------ */
-#about-me-heading, #projects-heading, #contact-me-heading {
+
+/*Section headings*/
+.about-me-heading, #projects-heading, #contact-me-heading {
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
     text-align: center;
     padding-top: 3px;
 }
 
+/*Contains my photo and my bio*/
 section {
     position: relative;
     width: 100%;
@@ -129,12 +133,13 @@ section p {
     font-size: 1.5em;
 }
 
-/*This displays my picture on screens below 800px*/
+/*This displays my picture only on screens below 800px.*/
 #me-small {
     display: none;
 }
 
 /*-----------HAMBURGER-----------*/
+/*Section 2, Reference 2*/
 .responsive-menu > ul {
     list-style-type: none;
     display: hidden;
@@ -278,7 +283,7 @@ footer {
 /*This is a common breakpoint for phones*/ 
 
 /*Hamburger menu; this will only show up at width of 481px or smaller.*/
-/*-------Section 2, Reference 2 (lines 301 - 378)------*/ 
+/*-------Section 2, Reference 2------*/ 
     .hamburger {
         position: relative;
         display: flex;
@@ -352,7 +357,7 @@ footer {
         justify-content: right;
         align-self: center;
         flex-wrap: wrap;
-        background-color: purple;
+        background: rgba(191, 63, 127, 0.6);
         opacity: 0.5;
         color: black;
         padding-top: 20px;
@@ -360,7 +365,7 @@ footer {
         font-size: 20px;
        }
 
-    /*--------Section 2, Reference 1 (lines 385 - 391)-------*/
+    /*--------Section 2, Reference 1-------*/
     /* This hides the nav menu on smaller screens */
     .hidden {
         overflow: hidden;
@@ -369,7 +374,7 @@ footer {
         height: 0;
         border-width: 0;
     }
-
+    /*---------------End hamburger--------------*/
     header {
         width: 100%;
     }
@@ -380,6 +385,10 @@ footer {
 
     #me-small {
         max-width: 225px;
+    }
+
+    li:hover {
+        background: purple;
     }
 }
 
