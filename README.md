@@ -99,3 +99,36 @@ The purpose of this project is to create my own website to showcase my projects 
 | Change contact form appearance| L | 30 min | -hr | -hr |
 | Total | - | 17.5 hrs | 2 hrs |  2 hrs |
 
+## Additional Libraries
+ - jQuery: jQuery was originally used to create the navigation bar before refactoring. It was also used to create the website heading containing my name, the hamburger menu, and the majority of the projects section. 
+ 
+ - JSON: JSON was used to pull in my projects via API call from Google Sheet.
+ 
+ - Google Sheets: Google Sheets was used as a database to hold all of my projects.
+
+ - Google Analytics: Google Analytics was used to see how many visitors I have on my webpage.
+ 
+ - Google Fonts: Google Fonts was used to add different font families to the webpage to make it more aesthetically pleasing. 
+ 
+ - Font Awesome: Font Awesome was used to add logos for CodePen, LinkedIn, GitHub and WordPress. 
+
+## Code Snippet
+
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+
+## Issues and Resolutions
+ - Having text wrap around a circular picture
+ - Creating the navigation bar purely with jQuery 
+ - Round photo distorting the webpage's format on mobile
+ 
+
+#### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object
+
