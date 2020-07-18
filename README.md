@@ -114,12 +114,51 @@ The purpose of this project is to create my own website to showcase my projects 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
+#### Successfully appending CodePen icons and making CodePen links open in a new tab using target = "_blank"
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const app = (data) => {
+
+    const createProjectElement = (project) => {
+        ...
+        //Added codepen icons (See Section 13 References 1 and 2)
+        $dxDiv.append($('<a>').attr('href', project.url).attr('target', '_blank').html('<i class="fab fa-codepen fa-2x"></i>').addClass('project-link'));
+        $div.append($dxDiv);
+        return $div; 
+    }
+    data.forEach(project => {
+        const $projectDiv = createProjectElement(project);
+        $('#projects-container').append($projectDiv);
+    })
 }
+```
+
+#### Creating functionality to turn hamburger menu into an 'x' and function that opens the hambuger menu on mobile.
+```
+//-------CREATING HAMBURGER MENU FUNCTIONALITY------
+//This creates the functionality to show my menu items
+//---------Section 2, Reference 3---------
+jQuery(function($){
+    $( '.hamburger' ).click(function(){
+        $('.responsive-menu').toggleClass('expand')
+    })
+ })
+
+ //This creates the functionality to make the hamburger lines turn into an X
+ //---------Section 2, Reference 2-----------
+let menuOpen = false;
+$('.hamburger').click( () => {
+    if (!menuOpen) {
+        $('.hamburger').addClass('open');
+        menuOpen = true;
+        console.log('true')
+    } else {
+        $('.hamburger').removeClass('open');
+        menuOpen = false;
+        console.log('false')
+    }
+})
+//---------------------END HAMBURGER------------------
 ```
 
 ## Issues and Resolutions
