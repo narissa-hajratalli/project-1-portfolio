@@ -1,5 +1,8 @@
 # Project Proposal
 
+## Live Website
+https://narissa-hajratalli.netlify.app/
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
