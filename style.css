@@ -55,7 +55,7 @@ nav ul {
     width: 100%; /* This stretches the unordered list div to the length of the nav bar */
     text-align: center;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-evenly;
     list-style-type: none;
     background: rgba(191, 63, 127, 0.6);
 }
@@ -149,7 +149,7 @@ section p {
     display: hidden;
 }
 
-/*---------STYLING PROJECT DIVS------/
+/*---------STYLING PROJECT DIVS---------/
 /*Section 10, Reference 1*/
 /*Section 11, Reference 1*/
 #projects-container {
@@ -164,6 +164,8 @@ section p {
     width: 40%;
     margin: 0 auto;
     max-width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-areas: 
     "title title title"
@@ -200,7 +202,7 @@ div.dx-div:hover {
     opacity: 1;
 }
 
-/* Codepen icons */
+/* CodePen icons */
 .fab {
     padding: 7px;
 }
