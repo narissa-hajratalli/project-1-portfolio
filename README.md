@@ -124,10 +124,43 @@ function reverse(string) {
 
 ## Issues and Resolutions
  
-#### Having text wrap around a circular picture: 
+#### Having text wrap around a circular picture
+Issue: I was having trouble formatting the text to wrap circularly around the photo. After some research, I was able to make the text wrap by storing my photo in another circular div and using shape-around.
+```
+/*Section 3, References 1 and 2*/
+/*Contains my photo and my bio*/
+section {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+}
+
+/*This is the div containing my circular picture. Shape-outside formats the text to curve around the photo*/
+.circle {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+
+/*This is my photo inside of the circle class*/
+.me {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 80px;
+    box-shadow: 1px 12px 12px 2px rgba(0, 0, 255, .2);
+    border: 4px solid white;
+}
+```
 
 #### Creating the navigation bar purely with jQuery
-Originally, I attempted to make my navigation bar using jQuery. I ran into an issue when I tried to add individual hrefs to each navigation element because I was creating a 'jump to' type of navigation. The issue was that I had to store the forEach function inside of another function. While this partially fixed the problem, I still received an additional error that my list items containing each navigation element were not returning properly. In the essence of time, I decided to hardcode the navigation elements in HTML. 
+Issue: Originally, I attempted to make my navigation bar using jQuery. I ran into an issue when I tried to add individual hrefs to each navigation element because I was creating a 'jump to' type of navigation. The issue was that I had to store the forEach function inside of another function. While this partially fixed the problem, I still received an additional error that my list items containing each navigation element were not returning properly. In the essence of time, I decided to hardcode the navigation elements in HTML. 
  ``` 
  //-----MY ATTEMPT 1-----
 
@@ -181,7 +214,7 @@ Error
 addToNavBar is not a function
 ```
 
-Partial solution
+Partial resolution
 ```
 const addToNavBar = () =>{
       navBar.forEach((element) => {
@@ -192,8 +225,10 @@ Error
 $li is not defined
 ```
 
-#### Round photo distorting the webpage's format on mobile: 
-The round photo started distorting all other elements on smaller screen sizes. My photo and the circular container that it was in was too large for the body so it was shifted to the right side of the screen, spilling outside of the body, while all other elements shifted to the right of the screen. I decided to change the display to none for the image and circular container on smaller screens and added just my image with no direct parent using HTML. I then added properties so the image became more flexible on smaller screens. 
+#### Round photo distorting the webpage's format on mobile 
+Issue: The round photo started distorting all other elements on smaller screen sizes. My photo and the circular container that it was in was too large for the body so it was shifted to the right side of the screen, spilling outside of the body, while all other elements shifted to the right of the screen. I decided to change the display to none for the image and circular container on smaller screens and added just my image with no direct parent using HTML. I then added properties so the image became more flexible on smaller screens. 
+
+Resolution:
 ```
 HTML
    <!--Circle div for larger screens-->
@@ -253,8 +288,3 @@ CSS
     }
 }
 ```
-
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
-
