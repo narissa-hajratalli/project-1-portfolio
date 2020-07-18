@@ -75,7 +75,7 @@ The purpose of this project is to create my own website to showcase my projects 
 | Ensuring responsive for mobile | H | 2 hrs | 3.5 hr | 4 hrs |
 | Hamburger menu | H | 2 hrs | 6.5 hrs | 6.5 hrs|
 | Deploying website | H | 2hr | 45 min | 45 min |
-| Total | - | 27.5 hrs | -hr | -hr |
+| Total | - | 27.5 hrs | 42.25 hrs | 42.25 hrs |
 
 
 #### Post MVP
