@@ -86,7 +86,7 @@ a:hover{
 
 /* -------ABOUT ME------ */
 
-/*Section headings*/
+/*Headings*/
 .about-me-heading, #projects-heading, #contact-me-heading {
     font-family: 'MuseoModerno', cursive;
     font-size: 5vw;
@@ -94,7 +94,9 @@ a:hover{
     padding-top: 3px;
 }
 
+/*Section */
 /*Contains my photo and my bio*/
+
 section {
     position: relative;
     width: 100%;
