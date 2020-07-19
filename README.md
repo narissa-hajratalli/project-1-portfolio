@@ -265,7 +265,7 @@ $li is not defined
 ```
 
 #### Round photo distorting the webpage's format on mobile 
-Issue: The round photo started distorting all other elements on smaller screen sizes. My photo and the circular container that it was in was too large for the body so it was shifted to the right side of the screen, spilling outside of the body, while all other elements shifted to the right of the screen. I decided to change the display to none for the image and circular container on smaller screens and added just my image with no direct parent using HTML. I then added properties so the image became more flexible on smaller screens. 
+Issue: The round photo started distorting all other elements on smaller screen sizes. My photo and the circular container that it was in was too large for the body so it was shifted to the right side of the screen, spilling outside of the body, while all other elements shifted to the left of the screen. I decided to change the display to none for the image and circular container on smaller screens and added just my image with no direct parent using HTML. I then added properties so the image became more flexible on smaller screens. 
 
 Resolution:
 ```
