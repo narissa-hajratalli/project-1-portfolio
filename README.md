@@ -12,7 +12,7 @@ https://narissa-hajratalli.netlify.app/
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 ## Project Description
 The purpose of this project is to create my own website to showcase my projects on my journey to becoming a Software Engineer. My website will include my photo, my bio, my projects thus far, and a "Contact Me" portion. 
