@@ -20,11 +20,9 @@ $('.hamburger').click( () => {
     if (!menuOpen) {
         $('.hamburger').addClass('open');
         menuOpen = true;
-        console.log('true')
     } else {
         $('.hamburger').removeClass('open');
         menuOpen = false;
-        console.log('false')
     }
 })
 //---------------------END HAMBURGER------------------
@@ -32,7 +30,6 @@ $('.hamburger').click( () => {
 
 //-------ADDING PORTFOLIO SECTION USING JSON----------
 //--------Section 6, Reference 1---------
-//console.log($)
 const url = 'https://spreadsheets.google.com/feeds/list/1wNEVqSjAcMgCe-YIrdt0gR2QRg5l0EVtQoovN8GGEhY/od6/public/values?alt=json'
 
 //Fetch -- go and get that data
