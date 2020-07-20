@@ -15,6 +15,7 @@ font-family: 'Satisfy', cursive;
 }
 
 body {
+    /* Section 14, Reference 1 */
     background-image: url("https://res.cloudinary.com/ds7vqqwb8/image/upload/v1594694622/Project%201%20-%20Portfolio/Vision_Board_-_Narissa_Hajratalli_Final_xu8kz8.png");
     background-repeat: no-repeat;
     background-attachment: fixed;

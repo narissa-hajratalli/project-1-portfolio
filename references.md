@@ -48,3 +48,6 @@
 #### Section 13: Codepen and Social Medial icons
 - [Reference 1](https://fontawesome.com/)
 - Reference 2: Seola Carrano
+
+#### Section 14: Background repeat
+- [Reference 1](https://www.w3schools.com/cssref/pr_background-repeat.asp)
