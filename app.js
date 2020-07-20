@@ -25,7 +25,7 @@ $('.hamburger').click( () => {
         menuOpen = false;
     }
 })
-//---------------------END HAMBURGER------------------
+//---------------END HAMBURGER------------------
 
 
 //-------ADDING PORTFOLIO SECTION USING JSON----------

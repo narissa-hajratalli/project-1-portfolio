@@ -95,6 +95,10 @@ a:hover{
     padding-top: 3px;
 }
 
+img {
+    width: 400px;
+}
+
 /*Containing my photo and my bio*/
 section {
     position: relative;
